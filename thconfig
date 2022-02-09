@@ -1,0 +1,18 @@
+encoding  utf-8
+select morganscave_38
+source A.th
+
+layout local
+legend on
+scale 1 100
+
+north grid
+#symbol-set NSS
+endlayout
+
+#export
+export model -fmt survex -o morgans.3d
+export model -o morgans.lox
+export model -fmt kml -o morgans.kml
+export map -projection plan -layout local -o morgans.pdf
+export map -proj plan -fmt kml -o morgans_map.kml
