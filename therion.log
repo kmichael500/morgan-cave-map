@@ -120,7 +120,7 @@ selecting export objects ... done
 writing morgans.3d ... done
 writing morgans.lox ...
 processing projection plan ... done
-average distortion: 0.36%
+average distortion: 0.35%
 ..
 therion: warning -- BDDASP@BDDA.morgan -- multiple scrap outer outlines not supported yet
 .
@@ -129,7 +129,7 @@ therion: warning -- CSP@C.morgan -- multiple scrap outer outlines not supported 
 therion: warning -- data not georeferenced -- unable to export KML file
 writing morgans.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  9 FEB 2022 00:53
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  9 FEB 2022 01:08
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -152,7 +152,7 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])] [10] [11]
  
 Here is how much of MetaPost's memory you used:
  21500 strings using 460519 characters
- 3990976 bytes of node memory
+ 3991936 bytes of node memory
  1570 symbolic tokens
  11i,82n,17p,202b,4f stack positions out of 16i,98n,21p,250b,6f
 49 output files written: data.1 .. data.4013
@@ -162,7 +162,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  9 FEB 2022 00:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  9 FEB 2022 01:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -177,14 +177,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  285 strings out of 497099
  2901 string characters out of 6206936
- 159420 words of memory out of 5000000
+ 161576 words of memory out of 5000000
  1514 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  12i,5n,8p,333b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 443881 bytes).
+Output written on data.pdf (1 page, 450929 bytes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
@@ -212,6 +212,6 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
    0.26%   81.89%  BDDASP@BDDA.morgan
-   0.43%   80.34%  CSP@C.morgan
+   0.37%   80.34%  CSP@C.morgan
    0.42%   27.52%  ASP@A.morgan
 ################### end of scrap distortions ###################
