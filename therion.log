@@ -76,11 +76,11 @@ writing morgans.3d ... done
 writing morgans.lox ...
 processing projection plan ... done
 average distortion: 0.08%
-... done
+. done
 therion: warning -- data not georeferenced -- unable to export KML file
 writing morgans.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  8 FEB 2022 01:42
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  8 FEB 2022 18:40
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -88,21 +88,22 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
 4012] [4013]
-[1] [2] [3] [4] (./mptextmp.mp) [5] [6] [7] [8] [9] [10] [11] [12] [13] )
+[1] [2] [3] [4] (./mptextmp.mp) [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [16] [17] [18] )
  
 Here is how much of MetaPost's memory you used:
- 8715 strings using 185474 characters
- 3362800 bytes of node memory
- 1435 symbolic tokens
- 8i,82n,11p,217b,5f stack positions out of 16i,98n,12p,250b,6f
-26 output files written: data.1 .. data.4013
+ 9341 strings using 194630 characters
+ 3554160 bytes of node memory
+ 1571 symbolic tokens
+ 11i,82n,14p,217b,5f stack positions out of 16i,98n,17p,250b,6f
+31 output files written: data.1 .. data.4013
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  8 FEB 2022 01:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  8 FEB 2022 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -111,38 +112,36 @@ entering extended mode
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 61 numeric registers used out of 32768
+ 67 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 253 strings out of 497099
- 2617 string characters out of 6206936
- 84234 words of memory out of 5000000
- 1482 multiletter control sequences out of 15000+600000
+ 259 strings out of 497099
+ 2656 string characters out of 6206936
+ 158711 words of memory out of 5000000
+ 1488 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  12i,5n,8p,333b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 79255 bytes).
+Output written on data.pdf (1 page, 103291 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 therion: warning -- data not georeferenced -- unable to export KML file
 writing xtherion file ... done
-compilation time: 1 sec
+compilation time: 2 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
    0.08%    1.47%  ASP1@morganscave_38
-   0.00%    0.00%  scrap141@morganscave_38
-   0.00%    0.00%  scrap144@morganscave_38
 ################### end of scrap distortions ###################

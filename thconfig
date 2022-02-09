@@ -7,7 +7,7 @@ legend on
 scale 1 100
 
 north grid
-#symbol-set NSS
+symbol-set NSS
 endlayout
 
 #export
