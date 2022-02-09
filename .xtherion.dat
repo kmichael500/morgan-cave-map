@@ -1,16 +1,16 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 388.36m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.57m (from A9.1@A.morgan at 1.07m to B16@BDDA.morgan at -5.50m)\nnorth-south range: 98.94m (from D3@BDDA.morgan at 8.88m to B18@BDDA.morgan at -90.06m)\neast-west range: 91.47m (from A11.1@A.morgan at 35.21m to D4.1@BDDA.morgan at -56.26m)\nnumber of shots: 1299\nnumber of stations: 1299"
-xth_cp_data_tree_insert 22 1 1 morgan morgan "Morgan Cave" "Morgan Cave" "length: 388.36m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.57m (from A9.1@A.morgan at 1.07m to B16@BDDA.morgan at -5.50m)\nnorth-south range: 98.94m (from D3@BDDA.morgan at 8.88m to B18@BDDA.morgan at -90.06m)\neast-west range: 91.47m (from A11.1@A.morgan at 35.21m to D4.1@BDDA.morgan at -56.26m)\nnumber of shots: 1299\nnumber of stations: 1299"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 382.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.88m (from A9.1@A.morgan at 1.07m to B16@BDDA.morgan at -5.81m)\nnorth-south range: 101.61m (from D3@BDDA.morgan at 8.13m to B18@BDDA.morgan at -93.48m)\neast-west range: 91.47m (from A11.1@A.morgan at 35.21m to D4.1@BDDA.morgan at -56.26m)\nnumber of shots: 1298\nnumber of stations: 1299"
+xth_cp_data_tree_insert 22 1 1 morgan morgan "Morgan Cave" "Morgan Cave" "length: 382.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.88m (from A9.1@A.morgan at 1.07m to B16@BDDA.morgan at -5.81m)\nnorth-south range: 101.61m (from D3@BDDA.morgan at 8.13m to B18@BDDA.morgan at -93.48m)\neast-west range: 91.47m (from A11.1@A.morgan at 35.21m to D4.1@BDDA.morgan at -56.26m)\nnumber of shots: 1298\nnumber of stations: 1299"
 xth_cp_data_tree_insert 24 22 2 A A.morgan "" "" "length: 135.17m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.38m (from A9.1@A.morgan at 1.07m to A7.1@A.morgan at -3.31m)\nnorth-south range: 46.73m (from A1@A.morgan at 0.00m to A13@A.morgan at -46.73m)\neast-west range: 51.52m (from A11.1@A.morgan at 35.21m to A3.1@A.morgan at -16.31m)\nnumber of shots: 426\nnumber of stations: 427"
-xth_cp_data_tree_insert 184 22 2 BDDA BDDA.morgan "" "" "length: 253.19m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.39m (from D4.1@BDDA.morgan at -0.11m to B16@BDDA.morgan at -5.50m)\nnorth-south range: 98.94m (from D3@BDDA.morgan at 8.88m to B18@BDDA.morgan at -90.06m)\neast-west range: 46.55m (from A3@BDDA.morgan at -9.71m to D4.1@BDDA.morgan at -56.26m)\nnumber of shots: 873\nnumber of stations: 871"
+xth_cp_data_tree_insert 184 22 2 BDDA BDDA.morgan "" "" "length: 247.13m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.57m (from D4.1@BDDA.morgan at -0.24m to B16@BDDA.morgan at -5.81m)\nnorth-south range: 101.61m (from D3@BDDA.morgan at 8.13m to B18@BDDA.morgan at -93.48m)\neast-west range: 46.55m (from A3@BDDA.morgan at -9.71m to D4.1@BDDA.morgan at -56.26m)\nnumber of shots: 872\nnumber of stations: 871"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert map 1 181X1 p1 1 AMP AMP@A.morgan "" ""
-xth_cp_map_tree_insert map 1 227X1 p1 1 AMP AMP@BDDA.morgan "" ""
-xth_cp_map_tree_insert map 1 231X1 p1 1 morgansMP morgansMP@morgan "" ""
+xth_cp_map_tree_insert map 1 230X1 p1 1 AMP AMP@BDDA.morgan "" ""
+xth_cp_map_tree_insert map 1 234X1 p1 1 morgansMP morgansMP@morgan "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 388 2
+xth_cp_comp_stat 382 2
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1644376771
+set xth(th_exit_number) 1644377611
 
