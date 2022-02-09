@@ -773,9 +773,31 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-point 3672.0 -1084.0 gradient -orientation 201.3
+area water
+endarea
 
-point 3436.0 -1040.0 gradient -orientation 207.0
+point 8312.0 -8480.0 label -text [Dirt Mound]
+
+point 4740.0 -4876.0 stalactite
+
+line wall
+endline
+
+point 5724.0 -6116.0 label -text Bones
+
+point 500.0 -5204.0 label -text [Lead in ceiling. Very tight.]
+
+point 8016.0 -10192.0 label -text TT
+
+point 8888.0 -9648.0 label -text [5" Dig. Air]
+
+point 5162.0 -4442.0 label -text TT
+
+point 3584.0 -1704.0 label -text Trough
+
+point 9644.0 -6320.0 label -text [1884 Signature]
+
+point 3544.0 -1052.0 gradient -orientation 207.0
 
 line floor-step -close on
   1408.0 -3804.0

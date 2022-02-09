@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -20284 14790 144.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -20284 14790 152.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B-D-DA_PLAN.jpg 0 {}
 
 
@@ -1099,7 +1099,7 @@ line rock-border -close on -place bottom
   11098.0 -9995.0 11092.0 -10004.0 11105.0 -9995.0
 endline
 
-line rock-border
+line ceiling-step
   11184.0 -9650.0
   11242.0 -9682.0 11284.0 -9696.0 11320.0 -9728.0
   11356.0 -9760.0 11440.0 -9826.0 11440.0 -9826.0
