@@ -1,0 +1,48 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -5442 5921 128
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} C_PLAN.jpg 0 {}
+
+
+
+scrap CSP -scale [17.0 -5316.0 375.0 -5318.0 0.0 0.0 0 3 m]
+
+point 2860.0 -2933.0 station -name C6
+
+point 2268.0 -3880.0 station -name C5
+
+point 1625.0 -4580.0 station -name C4
+
+point 4865.0 -2910.0 station -name C8.3
+
+point 4726.0 -2947.0 station -name C8.2
+
+point 4307.0 -2669.0 station -name C8.1
+
+point 4186.0 -2167.0 station -name C8.4
+
+point 5458.0 -325.0 station -name a6
+
+point 5186.0 -583.0 station -name C13
+
+point 5045.0 -846.0 station -name C12
+
+point 4871.0 -957.0 station -name C11
+
+point 4847.0 -1129.0 station -name C10
+
+point 4491.0 -1792.0 station -name C9
+
+point 4255.0 -2125.0 station -name C8
+
+point 3413.0 -1865.0 station -name C7
+
+point 1491.0 -4977.0 station -name C3
+
+point 483.0 -4238.0 station -name C1
+
+point 256.0 -4316.0 station -name B12
+
+endscrap
+
+

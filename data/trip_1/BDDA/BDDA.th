@@ -5,12 +5,12 @@ survey BDDA \
 
 input BDDA_PLAN.th2
 
-map AMP
+map BDDAMP
   BDDASP
 endmap
 
 centerline
-team "Corey Ellis" dog
+team "Corey Ellis" dog notes
 team "Michael Ketzner" notes instruments
 date 2021.10.16
 data normal from to tape compass clino

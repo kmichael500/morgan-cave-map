@@ -10,95 +10,107 @@ preprocessing database ... done
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
-average loop error: 0.24%
+average loop error: 0.13%
 processing survey data ... 
 ####################### cavern log file ########################
  1> Survex 1.2.42
  2> Copyright © 1990-2018 Olly Betts
  3> Survey has no control points. Therefore I’ve fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 1299 survey stations, joined by 1300 shots.
- 6> There are 4 loops.
+ 5> Survey contains 1628 survey stations, joined by 1631 shots.
+ 6> There are 6 loops.
  7> Survey has 3 connected components.
- 8> Total length of survey shots = 5273.32m (5273.34m adjusted)
- 9> Total plan length of survey shots = 5107.59m
-10> Total vertical length of survey shots =  660.54m
+ 8> Total length of survey shots = 6059.16m (6059.17m adjusted)
+ 9> Total plan length of survey shots = 5860.93m
+10> Total vertical length of survey shots =  805.35m
 11> Vertical range = 21.54m (from 698 at 13.07m to 959 at -8.47m)
-12> North-South range = 168.69m (from 698 at 72.62m to 1041 at -96.07m)
-13> East-West range = 169.08m (from 362 at 38.71m to 1188 at -130.38m)
-14> 1256 1-nodes.
-15>    1 3-node.
-16>    1 14-node.
-17>    2 15-nodes.
-18>    2 16-nodes.
-19>    2 17-nodes.
-20>    1 18-node.
-21>    2 19-nodes.
-22>    2 20-nodes.
-23>    2 23-nodes.
-24>    2 24-nodes.
-25>    3 25-nodes.
-26>    2 26-nodes.
-27>    1 27-node.
-28>    1 30-node.
-29>    1 31-node.
-30>    1 33-node.
-31>    1 35-node.
-32>    1 36-node.
-33>    1 37-node.
-34>    2 38-nodes.
-35>    1 39-node.
-36>    1 40-node.
-37>    1 42-node.
-38>    2 45-nodes.
-39>    1 47-node.
-40>    1 48-node.
-41>    1 52-node.
-42>    1 57-node.
-43>    1 59-node.
-44>    1 60-node.
-45>    1 75-node.
-46> 
+12> North-South range = 168.68m (from 698 at 72.63m to 1041 at -96.05m)
+13> East-West range = 169.07m (from 362 at 38.70m to 1188 at -130.37m)
+14> 1564 1-nodes.
+15>    2 3-nodes.
+16>    1 4-node.
+17>    1 6-node.
+18>    1 7-node.
+19>    2 8-nodes.
+20>    2 9-nodes.
+21>    1 10-node.
+22>    3 14-nodes.
+23>    2 15-nodes.
+24>    3 16-nodes.
+25>    2 17-nodes.
+26>    1 18-node.
+27>    3 19-nodes.
+28>    2 20-nodes.
+29>    1 21-node.
+30>    2 23-nodes.
+31>    3 24-nodes.
+32>    4 25-nodes.
+33>    3 26-nodes.
+34>    2 27-nodes.
+35>    2 30-nodes.
+36>    1 31-node.
+37>    2 33-nodes.
+38>    1 35-node.
+39>    1 36-node.
+40>    1 37-node.
+41>    2 38-nodes.
+42>    3 40-nodes.
+43>    1 42-node.
+44>    2 45-nodes.
+45>    1 47-node.
+46>    1 48-node.
+47>    1 52-node.
+48>    1 57-node.
+49>    1 59-node.
+50>    1 60-node.
+51>    1 75-node.
+52> 
 ######################### transcription ########################
  3> 1 : A1@A.morgan
- 5> 1299 : ent@morgan
- 6> 4 : A3.1@A.morgan
+ 5> 1628 : ent@morgan
+ 6> 6 : A5@A.morgan
  7> 3 : A3@A.morgan
 11> 698 : -@BDDA.morgan -- 959 : -@BDDA.morgan
 12> 698 : -@BDDA.morgan -- 1041 : -@BDDA.morgan
 13> 362 : -@A.morgan -- 1188 : -@BDDA.morgan
-14> 1256 : -@BDDA.morgan
-15> 1 : A1@A.morgan
+14> 1564 : -@C.morgan
+15> 2 : A2@A.morgan
 16> 1 : A1@A.morgan
-17> 2 : A2@A.morgan
-18> 2 : A2@A.morgan
+17> 1 : A1@A.morgan
+18> 1 : A1@A.morgan
 19> 2 : A2@A.morgan
-20> 1 : A1@A.morgan
-21> 2 : A2@A.morgan
-22> 2 : A2@A.morgan
+20> 2 : A2@A.morgan
+21> 1 : A1@A.morgan
+22> 3 : A3@A.morgan
 23> 2 : A2@A.morgan
-24> 2 : A2@A.morgan
-25> 3 : A3@A.morgan
-26> 2 : A2@A.morgan
-27> 1 : A1@A.morgan
-28> 1 : A1@A.morgan
+24> 3 : A3@A.morgan
+25> 2 : A2@A.morgan
+26> 1 : A1@A.morgan
+27> 3 : A3@A.morgan
+28> 2 : A2@A.morgan
 29> 1 : A1@A.morgan
-30> 1 : A1@A.morgan
-31> 1 : A1@A.morgan
-32> 1 : A1@A.morgan
-33> 1 : A1@A.morgan
+30> 2 : A2@A.morgan
+31> 3 : A3@A.morgan
+32> 4 : A3.1@A.morgan
+33> 3 : A3@A.morgan
 34> 2 : A2@A.morgan
-35> 1 : A1@A.morgan
+35> 2 : A2@A.morgan
 36> 1 : A1@A.morgan
-37> 1 : A1@A.morgan
-38> 2 : A2@A.morgan
+37> 2 : A2@A.morgan
+38> 1 : A1@A.morgan
 39> 1 : A1@A.morgan
 40> 1 : A1@A.morgan
-41> 1 : A1@A.morgan
-42> 1 : A1@A.morgan
+41> 2 : A2@A.morgan
+42> 3 : A3@A.morgan
 43> 1 : A1@A.morgan
-44> 1 : A1@A.morgan
+44> 2 : A2@A.morgan
 45> 1 : A1@A.morgan
+46> 1 : A1@A.morgan
+47> 1 : A1@A.morgan
+48> 1 : A1@A.morgan
+49> 1 : A1@A.morgan
+50> 1 : A1@A.morgan
+51> 1 : A1@A.morgan
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -111,11 +123,11 @@ processing projection plan ... done
 average distortion: 0.19%
 ..
 therion: warning -- BDDASP@BDDA.morgan -- multiple scrap outer outlines not supported yet
- done
+. done
 therion: warning -- data not georeferenced -- unable to export KML file
 writing morgans.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  8 FEB 2022 23:46
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  9 FEB 2022 00:13
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -123,31 +135,32 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
 4012] [4013]
+[1]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
 rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])] [1] [2]
-[3]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])] [2] [3]
+[4]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
 rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] (./mptextmp.mp) [14] [15] [16] [17] [18]
-[19] [20] [21] [22] [23] [24] [25] [26] [27] )
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])] [5] [6]
+[7] [8] [9] [10] [11] [12] [13] [14] (./mptextmp.mp) [15] [16] [17] [18] [19]
+[20] [21] [22] [23] [24] [25] [26] [27] [28] )
  
 Here is how much of MetaPost's memory you used:
- 16754 strings using 359859 characters
- 3959744 bytes of node memory
+ 16762 strings using 359574 characters
+ 3970816 bytes of node memory
  1570 symbolic tokens
  11i,82n,14p,202b,4f stack positions out of 16i,98n,17p,250b,6f
-40 output files written: data.1 .. data.4013
+41 output files written: data.1 .. data.4013
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  8 FEB 2022 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  9 FEB 2022 00:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -156,25 +169,25 @@ entering extended mode
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 81 numeric registers used out of 32768
+ 83 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 273 strings out of 497099
- 2791 string characters out of 6206936
- 160700 words of memory out of 5000000
- 1502 multiletter control sequences out of 15000+600000
+ 275 strings out of 497099
+ 2805 string characters out of 6206936
+ 160785 words of memory out of 5000000
+ 1504 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  12i,5n,8p,333b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 309659 bytes).
+Output written on data.pdf (1 page, 313907 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -187,13 +200,16 @@ compilation time: 2 sec
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
   0.40%    0.1m   37.1m   5    0.1m   -0.1m   -0.0m [D6@BDDA.morgan - D7 - B4 - B5 - B6 - D6]
+  0.30%    0.1m   20.7m   5    0.1m    0.0m    0.0m [C8@C.morgan - C8.4 - C8.3 - C8.2 - C8.1 - C8]
   0.15%    0.1m   81.0m  10    0.0m    0.0m   -0.1m [B2@BDDA.morgan - D1 - D2 - D3 - D4 - D5 - D6 - D7 - B4 - B3 - B2]
+  0.05%    0.1m  173.9m  29    0.1m   -0.0m    0.0m [A3@BDDA.morgan - B1 - B2 - B3 - B4 - B5 - B6 - B7 - B8 - B9 - B10 - B11 - B12 = B12@C.morgan - C1 - C2 - C3 - C4 - C5 - C6 - C7 - C8 - C9 - C10 - C11 - C12 - C13 - a6 = A6@A.morgan - A5 - A4 - A3 = A3@BDDA.morgan]
 ##################### end of loop errors #######################
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.19%   18.05%  ASP@A.morgan
+   0.19%   18.07%  ASP@A.morgan
    0.19%   17.44%  BDDASP@BDDA.morgan
+   0.17%    5.72%  CSP@C.morgan
 ################### end of scrap distortions ###################

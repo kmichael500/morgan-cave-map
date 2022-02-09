@@ -4,12 +4,17 @@ survey morgan \
 
   input data/trip_1/A/A.th
   input data/trip_1/BDDA/BDDA.th
+  input data/trip_1/C/C.th
+
   centreline
 
     station ent "main ent." entrance
     equate ent A1@A
     
-    equate A3@A A3@BDDA
+    equate A3@A A3@BDDA # connecting A and BDDA
+
+    equate a6@C A6@A 
+    equate B12@C B12@BDDA
   endcentreline
   map morgansMP
     ASP@A
