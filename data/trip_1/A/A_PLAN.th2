@@ -785,7 +785,7 @@ point 3672.0 -1084.0 gradient -orientation 201.3
 
 point 3436.0 -1040.0 gradient -orientation 207.0
 
-line pit -close on
+line floor-step -close on
   1408.0 -3804.0
   1380.0 -3808.0 1368.0 -3798.0 1352.0 -3814.0
   1336.0 -3830.0 1334.0 -3862.0 1342.0 -3878.0
