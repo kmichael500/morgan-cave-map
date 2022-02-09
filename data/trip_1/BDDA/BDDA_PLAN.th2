@@ -249,6 +249,30 @@ line wall -reverse on
   11962.0 -12052.0 12048.0 -12102.0 12070.0 -12128.0
 endline
 
+point 13024.0 -11154.0 station -name B1.1
+
+point 12032.0 -8657.0 station -name DA3
+
+point 11772.0 -9108.0 station -name DA2
+
+point 11308.0 -9874.0 station -name DA1
+
+point 12274.0 -9548.0 station -name D7
+
+point 11164.0 -10572.0 station -name D6
+
+point 9474.0 -9338.0 station -name D5
+
+point 8878.0 -7984.0 station -name D4.1
+
+point 9822.0 -8696.0 station -name D4
+
+point 10088.0 -7742.0 station -name D3
+
+point 11362.0 -8072.0 station -name D2
+
+point 11888.0 -8724.0 station -name D1
+
 line wall -reverse on
   11550.0 -8118.0
   11548.0 -8136.0 11560.0 -8188.0 11582.0 -8198.0
