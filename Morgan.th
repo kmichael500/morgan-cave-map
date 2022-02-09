@@ -1,0 +1,16 @@
+encoding  utf-8
+survey morgan \
+  -title "Morgan Cave" \
+
+  input data/trip_1/A/A.th
+  centreline
+
+    station ent "main ent." entrance
+    equate ent A1@A
+  endcentreline
+  map morgansMP
+    ASP1@A
+  endmap
+
+endsurvey
+

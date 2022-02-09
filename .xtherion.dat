@@ -1,12 +1,14 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 135.17m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.38m (from A9.1@morganscave_38 at 1.07m to A7.1@morganscave_38 at -3.31m)\nnorth-south range: 46.73m (from A1@morganscave_38 at 0.00m to A13@morganscave_38 at -46.73m)\neast-west range: 51.52m (from A11.1@morganscave_38 at 35.21m to A3.1@morganscave_38 at -16.31m)\nnumber of shots: 426\nnumber of stations: 427"
-xth_cp_data_tree_insert 22 1 1 morganscave_38 morganscave_38 "A survey" "A survey" "length: 135.17m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.38m (from A9.1@morganscave_38 at 1.07m to A7.1@morganscave_38 at -3.31m)\nnorth-south range: 46.73m (from A1@morganscave_38 at 0.00m to A13@morganscave_38 at -46.73m)\neast-west range: 51.52m (from A11.1@morganscave_38 at 35.21m to A3.1@morganscave_38 at -16.31m)\nnumber of shots: 426\nnumber of stations: 427"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 135.17m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.38m (from A9.1@A.morgan at 1.07m to A7.1@A.morgan at -3.31m)\nnorth-south range: 46.73m (from A1@A.morgan at 0.00m to A13@A.morgan at -46.73m)\neast-west range: 51.52m (from A11.1@A.morgan at 35.21m to A3.1@A.morgan at -16.31m)\nnumber of shots: 426\nnumber of stations: 428"
+xth_cp_data_tree_insert 22 1 1 morgan morgan "Morgan Cave" "Morgan Cave" "length: 135.17m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.38m (from A9.1@A.morgan at 1.07m to A7.1@A.morgan at -3.31m)\nnorth-south range: 46.73m (from A1@A.morgan at 0.00m to A13@A.morgan at -46.73m)\neast-west range: 51.52m (from A11.1@A.morgan at 35.21m to A3.1@A.morgan at -16.31m)\nnumber of shots: 426\nnumber of stations: 428"
+xth_cp_data_tree_insert 24 22 2 A A.morgan "" "" "length: 135.17m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.38m (from A9.1@A.morgan at 1.07m to A7.1@A.morgan at -3.31m)\nnorth-south range: 46.73m (from A1@A.morgan at 0.00m to A13@A.morgan at -46.73m)\neast-west range: 51.52m (from A11.1@A.morgan at 35.21m to A3.1@A.morgan at -16.31m)\nnumber of shots: 426\nnumber of stations: 427"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 179X1 p1 1 morgansMP morgansMP@morganscave_38 "" ""
+xth_cp_map_tree_insert map 1 181X1 p1 1 AMP AMP@A.morgan "" ""
+xth_cp_map_tree_insert map 1 185X1 p1 1 morgansMP morgansMP@morgan "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 135 1
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1644367213
+set xth(th_exit_number) 1644371212
 

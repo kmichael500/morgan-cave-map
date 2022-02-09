@@ -1,13 +1,11 @@
 encoding  utf-8
 # Created at 2022.02.07 19:32:37 by Qave ver. 2.2.727 rev. 2.2.7
-survey morganscave_38 \
--title "A survey" \
--entrance A1
+survey A
 
 input A_PLAN.th2
 
-map morgansMP
-  ASP1
+map AMP
+  ASP
 endmap
 
 centerline
