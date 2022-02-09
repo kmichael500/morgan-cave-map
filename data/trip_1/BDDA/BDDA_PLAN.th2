@@ -1182,14 +1182,30 @@ line border -id l153-10573--16546 -subtype invisible
   10927.0 -15897.0
 endline
 
-area water
+area water -place bottom
   l30-10820--15958
   l152-10783--16020
   l38-10235--17747
   l153-10573--16546
 endarea
 
-area water
+point 10086.0 -19775.0 water-flow -orientation 161.2
+
+point 10208.0 -19343.0 water-flow -orientation 130.8
+
+point 9711.0 -18545.0 water-flow -orientation 172.9
+
+point 9717.0 -18500.0 water-flow -orientation 198.4
+
+point 10816.0 -15818.0 water-flow -orientation 161.9
+
+point 10390.0 -16570.0 water-flow -orientation 208.3
+
+point 10212.0 -17865.0 water-flow -orientation 142.6
+
+point 10031.0 -18053.0 water-flow -orientation 267.8
+
+area water -place bottom
   l155-9995--17922
   l7-9666--18717
   l156-9777--18827
