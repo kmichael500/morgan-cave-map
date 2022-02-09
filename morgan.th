@@ -3,14 +3,19 @@ survey morgan \
   -title "Morgan Cave" \
 
   input data/trip_1/A/A.th
+  input data/trip_1/BDDA/BDDA.th
   centreline
 
     station ent "main ent." entrance
     equate ent A1@A
+    
+    equate A3@A A3@BDDA
   endcentreline
   map morgansMP
     ASP@A
+    BDDASP@BDDA
   endmap
+  join BDDASP@BDDA ASP@A
 
 endsurvey
 
