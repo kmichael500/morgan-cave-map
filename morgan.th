@@ -19,8 +19,12 @@ survey morgan \
   map morgansMP
     ASP@A
     BDDASP@BDDA
+    CSP@C
   endmap
   join BDDASP@BDDA ASP@A
+
+  join CSP@C BDDASP@BDDA
+  join CSP@C ASP@A
 
 endsurvey
 
