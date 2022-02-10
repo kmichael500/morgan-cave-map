@@ -63,6 +63,7 @@ survey morgan \
 
   #B2.1
   join B21SP@B21 BDDASP@BDDA
+  join B21SP@B21 ESP@E
 
 
 endsurvey

@@ -5,7 +5,7 @@ source morgan.th
 layout local
 legend on
 scale 1 100
-
+#debug all
 north grid
 symbol-set NSS
 endlayout
