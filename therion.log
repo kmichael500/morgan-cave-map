@@ -143,7 +143,7 @@ therion: warning -- ESP@E.morgan -- multiple scrap outer outlines not supported 
 therion: warning -- data not georeferenced -- unable to export KML file
 writing morgans.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  9 FEB 2022 22:16
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  9 FEB 2022 22:43
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -164,21 +164,21 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])]
 rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])] [26] [27]
 [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] (./mptextmp.mp
 ) [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] )
+[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] )
  
 Here is how much of MetaPost's memory you used:
- 28795 strings using 624465 characters
- 4285232 bytes of node memory
+ 29184 strings using 636841 characters
+ 4241920 bytes of node memory
  1573 symbolic tokens
  11i,82n,17p,397b,5f stack positions out of 16i,98n,21p,487b,6f
-79 output files written: data.1 .. data.4013
+78 output files written: data.1 .. data.4013
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  9 FEB 2022 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  9 FEB 2022 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,25 +187,25 @@ entering extended mode
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 131 numeric registers used out of 32768
+ 130 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 323 strings out of 497099
- 3255 string characters out of 6206936
- 163368 words of memory out of 5000000
- 1552 multiletter control sequences out of 15000+600000
+ 322 strings out of 497099
+ 3248 string characters out of 6206936
+ 162667 words of memory out of 5000000
+ 1551 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 12i,5n,8p,333b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 12i,5n,8p,325b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 584188 bytes).
+Output written on data.pdf (1 page, 559879 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 212 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 599 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 593 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -231,7 +231,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    1.87%   82.06%  B19SP@B19.morgan
    0.41%   81.96%  BDDASP@BDDA.morgan
    0.36%   80.35%  CSP@C.morgan
-   0.55%   54.01%  ESP@E.morgan
+   0.57%   54.01%  ESP@E.morgan
    0.42%   27.63%  ASP@A.morgan
    1.19%    8.20%  E_UNDERSP@E.morgan
 ################### end of scrap distortions ###################
