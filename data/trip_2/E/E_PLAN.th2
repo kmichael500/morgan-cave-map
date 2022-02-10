@@ -1,0 +1,36 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -5073 4821 128
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} E_PLAN.jpg 0 {}
+
+
+
+scrap ESP -projection plan -scale [30.0 -4927.0 507.0 -4928.0 0.0 0.0 3 0.0 m]
+
+point 1774.0 -534.0 station -name E11
+
+point 1778.0 -933.0 station -name E10
+
+point 1392.0 -1088.0 station -name E9
+
+point 1079.0 -1556.0 station -name E8
+
+point 1246.0 -1981.0 station -name E7
+
+point 1323.0 -2463.0 station -name E6
+
+point 578.0 -2862.0 station -name E5
+
+point 565.0 -3070.0 station -name E4
+
+point 165.0 -3572.0 station -name E3
+
+point 366.0 -3722.0 station -name E2
+
+point 451.0 -4200.0 station -name E1
+
+point 506.0 -4142.0 station -name D3
+
+endscrap
+
+

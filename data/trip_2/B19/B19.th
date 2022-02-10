@@ -10,7 +10,7 @@ map B19MP
 endmap
 
 centerline
-team "Corey Ellis" dog notes instruments
+team "Corey Ellis" dog
 team "Michael Ketzner" notes instruments
 date 2021.12.03
 data normal from to tape compass clino

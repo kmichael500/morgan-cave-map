@@ -6,19 +6,26 @@ survey morgan \
   input data/trip_1/BDDA/BDDA.th
   input data/trip_1/C/C.th
   input data/trip_2/B19/B19.th
+  input data/trip_2/E/E.th
 
   centreline
 
     station ent "main ent." entrance
     equate ent A1@A
     
+    #BDDA
     equate A3@A A3@BDDA # connecting A and BDDA
 
+    #C
     equate a6@C A6@A
-
     equate B12@C B12@BDDA
 
+    #B19
     equate B18@B19 B18@BDDA
+
+    #E
+    equate D3@E D3@BDDA
+
 
   endcentreline
   map morgansMP
@@ -26,13 +33,20 @@ survey morgan \
     BDDASP@BDDA
     CSP@C
     B19SP@B19
+    ESP@E
   endmap
+  #BDDA
   join BDDASP@BDDA ASP@A
 
+  #C
   join CSP@C BDDASP@BDDA
   join CSP@C ASP@A
 
+  #B19
   join B19SP@B19 BDDASP@BDDA
+
+  #E
+  join ESP@E BDDASP@BDDA
 
 endsurvey
 
