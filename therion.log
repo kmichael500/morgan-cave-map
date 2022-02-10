@@ -10,28 +10,28 @@ preprocessing database ... done
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
-average loop error: 0.13%
+average loop error: 0.23%
 processing survey data ... 
 ####################### cavern log file ########################
  1> Survex 1.2.42
  2> Copyright © 1990-2018 Olly Betts
  3> Survey has no control points. Therefore I’ve fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 1984 survey stations, joined by 1987 shots.
- 6> There are 6 loops.
+ 5> Survey contains 1984 survey stations, joined by 1988 shots.
+ 6> There are 7 loops.
  7> Survey has 3 connected components.
- 8> Total length of survey shots = 6889.41m (6889.42m adjusted)
+ 8> Total length of survey shots = 6889.41m (6889.43m adjusted)
  9> Total plan length of survey shots = 6658.36m
 10> Total vertical length of survey shots =  941.70m
 11> Vertical range = 21.54m (from 698 at 13.07m to 959 at -8.47m)
-12> North-South range = 191.84m (from 698 at 72.63m to 1715 at -119.21m)
-13> East-West range = 169.07m (from 362 at 38.70m to 1188 at -130.37m)
+12> North-South range = 191.84m (from 698 at 72.64m to 1715 at -119.20m)
+13> East-West range = 169.06m (from 362 at 38.70m to 1188 at -130.36m)
 14> 1891 1-nodes.
 15>    3 2-nodes.
 16>    4 3-nodes.
 17>    2 4-nodes.
-18>    3 5-nodes.
-19>    3 6-nodes.
+18>    2 5-nodes.
+19>    4 6-nodes.
 20>    2 7-nodes.
 21>    3 8-nodes.
 22>    2 9-nodes.
@@ -63,18 +63,17 @@ processing survey data ...
 48>    1 42-node.
 49>    1 44-node.
 50>    2 45-nodes.
-51>    1 47-node.
-52>    1 48-node.
-53>    1 52-node.
-54>    1 57-node.
-55>    1 59-node.
-56>    1 60-node.
-57>    1 75-node.
-58> 
+51>    2 48-nodes.
+52>    1 52-node.
+53>    1 57-node.
+54>    1 59-node.
+55>    1 60-node.
+56>    1 75-node.
+57> 
 ######################### transcription ########################
  3> 1 : A1@A.morgan
  5> 1984 : ent@morgan
- 6> 6 : A5@A.morgan
+ 6> 7 : A6@A.morgan
  7> 3 : A3@A.morgan
 11> 698 : -@BDDA.morgan -- 959 : -@BDDA.morgan
 12> 698 : -@BDDA.morgan -- 1715 : -@B19.morgan
@@ -83,8 +82,8 @@ processing survey data ...
 15> 3 : A3@A.morgan
 16> 4 : A3.1@A.morgan
 17> 2 : A2@A.morgan
-18> 3 : A3@A.morgan
-19> 3 : A3@A.morgan
+18> 2 : A2@A.morgan
+19> 4 : A3.1@A.morgan
 20> 2 : A2@A.morgan
 21> 3 : A3@A.morgan
 22> 2 : A2@A.morgan
@@ -116,13 +115,12 @@ processing survey data ...
 48> 1 : A1@A.morgan
 49> 1 : A1@A.morgan
 50> 2 : A2@A.morgan
-51> 1 : A1@A.morgan
+51> 2 : A2@A.morgan
 52> 1 : A1@A.morgan
 53> 1 : A1@A.morgan
 54> 1 : A1@A.morgan
 55> 1 : A1@A.morgan
 56> 1 : A1@A.morgan
-57> 1 : A1@A.morgan
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -132,18 +130,20 @@ selecting export objects ... done
 writing morgans.3d ... done
 writing morgans.lox ...
 processing projection plan ... done
-average distortion: 0.52%
+average distortion: 0.55%
 ..
 therion: warning -- BDDASP@BDDA.morgan -- multiple scrap outer outlines not supported yet
 .
 therion: warning -- CSP@C.morgan -- multiple scrap outer outlines not supported yet
 .
 therion: warning -- B19SP@B19.morgan -- multiple scrap outer outlines not supported yet
-.. done
+.
+therion: warning -- ESP@E.morgan -- multiple scrap outer outlines not supported yet
+. done
 therion: warning -- data not georeferenced -- unable to export KML file
 writing morgans.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  9 FEB 2022 21:43
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  9 FEB 2022 22:16
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -164,21 +164,21 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])]
 rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [258])] [26] [27]
 [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] (./mptextmp.mp
 ) [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] )
+[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] )
  
 Here is how much of MetaPost's memory you used:
- 28528 strings using 617246 characters
- 4283952 bytes of node memory
+ 28795 strings using 624465 characters
+ 4285232 bytes of node memory
  1573 symbolic tokens
  11i,82n,17p,397b,5f stack positions out of 16i,98n,21p,487b,6f
-78 output files written: data.1 .. data.4013
+79 output files written: data.1 .. data.4013
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  9 FEB 2022 21:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  9 FEB 2022 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,25 +187,25 @@ entering extended mode
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 130 numeric registers used out of 32768
+ 131 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 322 strings out of 497099
- 3248 string characters out of 6206936
- 163369 words of memory out of 5000000
- 1551 multiletter control sequences out of 15000+600000
+ 323 strings out of 497099
+ 3255 string characters out of 6206936
+ 163368 words of memory out of 5000000
+ 1552 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  12i,5n,8p,333b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 579574 bytes).
+Output written on data.pdf (1 page, 584188 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 214 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 593 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 599 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -217,6 +217,7 @@ compilation time: 3 sec
 
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  0.57%    0.3m   57.2m  15   -0.1m   -0.3m   -0.1m [D2@E.morgan - E7.6 - E7.5 - E7.4 - E7.3 - E7.2 - E7.1 - E7 - E6 - E5 - E4 - E3 - E2 - E1 - D3 = D3@BDDA.morgan - D2 = D2@E.morgan]
   0.40%    0.1m   37.1m   5    0.1m   -0.1m   -0.0m [D6@BDDA.morgan - D7 - B4 - B5 - B6 - D6]
   0.30%    0.1m   20.7m   5    0.1m    0.0m    0.0m [C8@C.morgan - C8.4 - C8.3 - C8.2 - C8.1 - C8]
   0.15%    0.1m   81.0m  10    0.0m    0.0m   -0.1m [B2@BDDA.morgan - D1 - D2 - D3 - D4 - D5 - D6 - D7 - B4 - B3 - B2]
@@ -227,10 +228,10 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   1.88%   81.98%  B19SP@B19.morgan
-   0.37%   81.96%  BDDASP@BDDA.morgan
-   0.37%   80.34%  CSP@C.morgan
-   0.42%   27.52%  ASP@A.morgan
-   0.40%   18.64%  ESP@E.morgan
-   1.20%    9.07%  E_UNDERSP@E.morgan
+   1.87%   82.06%  B19SP@B19.morgan
+   0.41%   81.96%  BDDASP@BDDA.morgan
+   0.36%   80.35%  CSP@C.morgan
+   0.55%   54.01%  ESP@E.morgan
+   0.42%   27.63%  ASP@A.morgan
+   1.19%    8.20%  E_UNDERSP@E.morgan
 ################### end of scrap distortions ###################

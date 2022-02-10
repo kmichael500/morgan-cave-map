@@ -25,6 +25,7 @@ survey morgan \
 
     #E
     equate D3@E D3@BDDA
+    equate D2@E D2@BDDA
 
 
   endcentreline
@@ -46,7 +47,8 @@ survey morgan \
   join B19SP@B19 BDDASP@BDDA
 
   #E
-  join ESP@E BDDASP@BDDA
+  join ESP@E BDDASP@BDDA -count 2
+
 
 endsurvey
 
