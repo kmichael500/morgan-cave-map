@@ -11,10 +11,10 @@ xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert map 1 194X1 p1 1 AMP AMP@A.morgan "" ""
 xth_cp_map_tree_insert map 1 365X1 p1 1 BDDAMP BDDAMP@BDDA.morgan "" ""
 xth_cp_map_tree_insert map 1 452X1 p1 1 CMP CMP@C.morgan "" ""
-xth_cp_map_tree_insert map 1 515X1 p1 1 B19MP B19MP@B19.morgan "" ""
-xth_cp_map_tree_insert map 1 519X1 p1 1 morgansMP morgansMP@morgan "" ""
+xth_cp_map_tree_insert map 1 516X1 p1 1 B19MP B19MP@B19.morgan "" ""
+xth_cp_map_tree_insert map 1 520X1 p1 1 morgansMP morgansMP@morgan "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 518 4
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1644458405
+set xth(th_exit_number) 1644458627
 
