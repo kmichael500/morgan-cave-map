@@ -7,7 +7,11 @@ input E_PLAN.th2
 
 map EMP
   ESP
+  break
+  E_UNDERSP
 endmap
+
+join ESP E_UNDERSP
 
 centerline
 team "Corey Ellis" dog
