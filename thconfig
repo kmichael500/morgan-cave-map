@@ -5,9 +5,6 @@ source morgan.th
 layout local
 legend on
 scale 1 100
-symbol-hide line survey
-symbol-hide group centreline
-symbol-hide point station:temporary
 
 north grid
 symbol-set NSS

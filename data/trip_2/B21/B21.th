@@ -1,11 +1,18 @@
 encoding utf-8
 # Created at 2022.02.09 22:45:10 by Qave ver. 2.2.727 rev. 2.2.7
 
-survey morganscave_52 \
--title "B2.1"
+survey B21
+
+input B21_PLAN.th2
+
+map B21MP
+  B21SP
+endmap
 
 centerline
-team ""
+team "Corey Ellis" dog
+team "Michael Ketzner" notes instruments
+date 2021.12.03
 date 2021.12.03
 data normal from to tape compass clino
 

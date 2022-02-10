@@ -1,0 +1,24 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -30163 2219 128
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B2.1_PLAN.jpg 0 {}
+
+
+
+scrap B21SP -projection plan -scale [130.0 -29792.0 607.0 -29797.0 0.0 0.0 2 0.0 m]
+
+point 1638.0 -26568.0 station -name B2.5
+
+point 702.0 -26338.0 station -name B2.4
+
+point 868.0 -26780.0 station -name B2.3
+
+point 822.0 -27962.0 station -name B2.2
+
+point 514.0 -28534.0 station -name B2.1
+
+point 837.0 -29796.0 station -name B2
+
+endscrap
+
+

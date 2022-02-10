@@ -1,0 +1,20 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -2293 2128 128
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} F_PLAN.jpg 0 {}
+
+
+
+scrap FSP -scale [155.0 -2138.0 631.0 -2138.0 0.0 0.0 2 0.0 m]
+
+point 1391.0 -553.0 station -name F3
+
+point 195.0 -1940.0 station -name F1
+
+point 763.0 -1310.0 station -name F2
+
+point 159.0 -1982.5 station -name B1
+
+endscrap
+
+

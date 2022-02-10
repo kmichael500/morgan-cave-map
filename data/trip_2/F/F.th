@@ -1,11 +1,17 @@
 encoding utf-8
 # Created at 2022.02.09 22:44:42 by Qave ver. 2.2.727 rev. 2.2.7
 
-survey morganscave_51 \
--title "F Survey "
+survey F
+
+input F_PLAN.th2
+
+map FMP
+  FSP
+endmap
 
 centerline
-team "Corey"
+team "Corey Ellis" dog
+team "Michael Ketzner" notes instruments
 date 2021.12.03
 data normal from to tape compass clino
 
