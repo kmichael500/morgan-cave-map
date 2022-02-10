@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -20284 14790 152.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -136.0 -20284 14790 144.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B-D-DA_PLAN.jpg 0 {}
 
 
@@ -1330,6 +1330,36 @@ line wall
 endline
 
 point 10666.0 -7864.0 gradient -orientation 277.4
+
+line border -id l165-10290--19790 -close on -subtype invisible
+  10072.0 -20024.0
+  10072.0 -20024.0 10146.0 -19740.0 10216.0 -19740.0
+  10286.0 -19740.0 10296.0 -19822.0 10296.0 -19822.0
+  smooth off
+  10358.0 -20054.0
+  10288.0 -20136.0
+  10044.0 -20042.0
+  10072.0 -20024.0
+endline
+
+area debris
+  l165-10290--19790
+endarea
+
+area debris
+  l163-10212--19442
+endarea
+
+line border -id l163-10212--19442 -close on -subtype invisible
+  10154.0 -19416.0
+  10154.0 -19416.0 10130.0 -19262.0 10160.0 -19222.0
+  10190.0 -19182.0 10348.0 -19440.0 10348.0 -19440.0
+  smooth off
+  10186.0 -19442.0
+  10154.0 -19416.0
+endline
+
+point 10064.0 -19916.0 gradient -orientation 66.4 -scale xs
 
 endscrap
 
