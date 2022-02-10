@@ -162,6 +162,40 @@ line floor-step
   smooth off
 endline
 
+point 1344.0 -984.0 gradient -orientation 217.2 -scale xs
+
+point 1247.0 -1166.0 gradient -orientation 282.9
+
+point 1089.0 -1040.0 gradient -orientation 101.4 -scale xs
+
+point 1012.0 -1358.0 gradient -orientation 101.4 -scale xs
+
+point 928.0 -1773.0 gradient -orientation 101.4 -scale xs
+
+point 884.0 -2111.0 gradient -orientation 101.4 -scale xs
+
+point 581.0 -2819.0 gradient -orientation 101.4
+
+point 716.0 -2476.0 gradient -orientation 101.4
+
+point 920.0 -2336.0 gradient -orientation 8.0
+
+point 582.0 -3034.0 gradient -orientation 68.5
+
+point 978.0 -2977.0 gradient -orientation 163.0
+
+point 1287.0 -3155.0 gradient -orientation 272.2
+
+point 1027.0 -3401.0 gradient -orientation 13.0
+
+point 966.0 -3641.0 gradient -orientation 13.0
+
+point 804.0 -3531.0 gradient -orientation 19.5
+
+point 806.0 -3855.0 gradient -orientation 189.2
+
+point 851.0 -4093.0 gradient -orientation 315.4
+
 area sump -place bottom
   l38-495--4131
 endarea

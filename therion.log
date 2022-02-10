@@ -133,7 +133,7 @@ therion: warning -- B19SP@B19.morgan -- multiple scrap outer outlines not suppor
 therion: warning -- data not georeferenced -- unable to export KML file
 writing morgans.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  9 FEB 2022 19:22
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  9 FEB 2022 19:31
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -166,7 +166,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  9 FEB 2022 19:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  9 FEB 2022 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -188,7 +188,7 @@ Here is how much of TeX's memory you used:
  12i,5n,8p,333b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 480991 bytes).
+Output written on data.pdf (1 page, 483355 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
@@ -200,7 +200,7 @@ PDF statistics:
 done
 therion: warning -- data not georeferenced -- unable to export KML file
 writing xtherion file ... done
-compilation time: 2 sec
+compilation time: 3 sec
 
 
 ######################### loop errors ##########################
@@ -215,7 +215,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   2.77%   81.98%  B19SP@B19.morgan
+   2.58%   81.98%  B19SP@B19.morgan
    0.35%   81.95%  BDDASP@BDDA.morgan
    0.37%   80.34%  CSP@C.morgan
    0.42%   27.52%  ASP@A.morgan
