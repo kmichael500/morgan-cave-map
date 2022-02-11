@@ -25,14 +25,6 @@ endline
 
 point 1942.0 -1796.0 label -text [Clay fill]
 
-line ceiling-step -reverse on
-  976.0 -1458.0
-  994.0 -1438.0 1058.0 -1356.0 1080.0 -1340.0
-  1102.0 -1324.0 1222.0 -1258.0 1244.0 -1240.0
-  1266.0 -1222.0 1376.0 -1130.0 1376.0 -1130.0
-  smooth off
-endline
-
 line wall -reverse on -subtype clay
   1892.0 -1426.0
   1968.0 -1454.0 2128.0 -1554.0 2118.0 -1630.0
