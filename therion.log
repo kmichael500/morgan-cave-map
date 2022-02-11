@@ -141,7 +141,7 @@ therion: warning -- ESP@E.morgan -- multiple scrap outer outlines not supported 
 therion: warning -- data not georeferenced -- unable to export KML file
 writing morgans.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  10 FEB 2022 00:15
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  10 FEB 2022 22:50
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -177,7 +177,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  10 FEB 2022 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  10 FEB 2022 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -199,7 +199,7 @@ Here is how much of TeX's memory you used:
  12i,5n,8p,388b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 622741 bytes).
+Output written on data.pdf (1 page, 622748 bytes).
 PDF statistics:
  266 PDF objects out of 1000 (max. 8388607)
  139 compressed objects within 2 object streams
