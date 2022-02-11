@@ -13,6 +13,7 @@ survey morgan \
   input data/trip_2/B7/B7.th
   input data/trip_2/B9/B9.th
   input data/trip_2/B12/B12.th
+  input data/trip_2/B15/B15.th
 
   centreline
 
@@ -50,6 +51,9 @@ survey morgan \
 
     #B12
     equate B12@B12 B12@BDDA
+
+    #B15
+    equate B15@B15 B15@BDDA
 
 
   endcentreline
@@ -97,6 +101,9 @@ survey morgan \
 
   #B12
   join B12SP@B12 BDDASP@BDDA -count 2
+
+  #B15
+  join B15SP@B15 BDDASP@BDDA
 
 
 endsurvey

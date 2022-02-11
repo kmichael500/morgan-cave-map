@@ -1363,7 +1363,7 @@ point 10212.0 -17865.0 water-flow -orientation 142.6
 
 point 10031.0 -18053.0 water-flow -orientation 267.8
 
-point 10705.0 -15501.0 gradient -orientation 122.3
+point 10705.0 -15501.0 gradient -orientation 122.3 -scale xs
 
 point 11184.0 -15596.0 water-flow -orientation 332.9
 
