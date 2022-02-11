@@ -827,6 +827,10 @@ line rock-border -close on
   8592.0 -7542.0 8596.0 -7596.0 8602.0 -7586.0
 endline
 
+point 3610.0 -824.0 label -text Entrance -align center
+
+point 3670.0 -682.0 entrance -visibility off
+
 area blocks
   l200-9874--6044
 endarea
