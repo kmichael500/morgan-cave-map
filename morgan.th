@@ -12,6 +12,7 @@ survey morgan \
   input data/trip_2/B6/B6.th
   input data/trip_2/B7/B7.th
   input data/trip_2/B9/B9.th
+  input data/trip_2/B12/B12.th
 
   centreline
 
@@ -47,6 +48,9 @@ survey morgan \
     #B9
     equate B9@B9 B9@BDDA
 
+    #B12
+    equate B12@B12 B12@BDDA
+
 
   endcentreline
   map morgansMP
@@ -60,6 +64,7 @@ survey morgan \
     B6SP@B6
     B7SP@B7
     B9SP@B9
+    B12SP@B12
   endmap
   #BDDA
   join BDDASP@BDDA ASP@A
@@ -89,6 +94,9 @@ survey morgan \
 
   #B9
   join B9SP@B9 BDDASP@BDDA
+
+  #B12
+  join B12SP@B12 BDDASP@BDDA -count 2
 
 
 endsurvey
