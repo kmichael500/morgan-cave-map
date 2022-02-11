@@ -28,6 +28,7 @@ line wall -reverse on
   763.0 -1689.0 753.0 -1738.0 752.0 -1758.0
   751.0 -1778.0 773.0 -1866.0 771.0 -1886.0
   769.0 -1906.0 767.0 -1933.0 751.0 -1952.0
+  smooth off
 endline
 
 line wall -reverse on -subtype presumed
@@ -52,6 +53,7 @@ line wall
   237.0 -1380.0 222.0 -1405.0 247.0 -1463.0
   272.0 -1521.0 277.0 -1563.0 286.0 -1577.0
   295.0 -1591.0 309.0 -1619.0 303.0 -1631.0
+  smooth off
 endline
 
 point 180.0 -1334.0 passage-height -value [.45 m]
@@ -96,11 +98,16 @@ line wall -subtype presumed
   303.0 -1631.0
   297.0 -1643.0 271.0 -1658.0 264.0 -1661.0
   257.0 -1664.0 211.0 -1695.0 190.0 -1713.0
+  smooth off
 endline
 
 point 561.0 -1489.0 station -name B15.1
 
 point 1242.0 -237.0 station -name B15
+
+point 230.0 -1541.0 label -text [Passage continues - short dig. Best lead in the cave.] -scale xs
+
+point 396.0 -1840.0 label -text TT -align center
 
 endscrap
 

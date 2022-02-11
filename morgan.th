@@ -2,9 +2,12 @@ encoding  utf-8
 survey morgan \
   -title "Morgan Cave" \
 
+  #trip 2
   input data/trip_1/A/A.th
   input data/trip_1/BDDA/BDDA.th
   input data/trip_1/C/C.th
+
+  #trip 2
   input data/trip_2/B19/B19.th
   input data/trip_2/E/E.th
   input data/trip_2/F/F.th
@@ -14,6 +17,7 @@ survey morgan \
   input data/trip_2/B9/B9.th
   input data/trip_2/B12/B12.th
   input data/trip_2/B15/B15.th
+  input data/trip_2/BA/BA.th
 
   centreline
 
@@ -55,6 +59,8 @@ survey morgan \
     #B15
     equate B15@B15 B15@BDDA
 
+    #BA
+    equate B10@BA B10@BDDA
 
   endcentreline
   map morgansMP
@@ -69,6 +75,7 @@ survey morgan \
     B7SP@B7
     B9SP@B9
     B12SP@B12
+    BASP@BA
   endmap
   #BDDA
   join BDDASP@BDDA ASP@A
@@ -104,6 +111,9 @@ survey morgan \
 
   #B15
   join B15SP@B15 BDDASP@BDDA
+
+  #BA
+  join BASP@BA BDDASP@BDDA -count 2
 
 
 endsurvey
