@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -4490 1719 141.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -4490 1719 144.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B19_PLAN.jpg 0 {}
 
 
@@ -484,6 +484,14 @@ endline
 
 line border -subtype invisible
 endline
+
+point 856.0 -3036.0 passage-height -value [210 in]
+
+point 816.0 -3628.0 passage-height -value [29 in]
+
+point 1082.0 -800.0 passage-height -value [2 ft]
+
+point 1132.0 -2000.0 passage-height -value [75 in]
 
 endscrap
 

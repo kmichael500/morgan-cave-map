@@ -47,6 +47,7 @@ line wall
   1516.0 -740.0 1540.0 -674.0 1568.0 -646.0
   1596.0 -618.0 1628.0 -574.0 1644.0 -548.0
   1660.0 -522.0 1678.0 -508.0 1704.0 -492.0
+  smooth off
 endline
 
 area debris
@@ -65,7 +66,13 @@ point 1520.0 -256.0 stalactite
 
 point 1752.0 -130.0 label -text [Flowstone choke]
 
-point 1216.0 -688.0 label -text Bones
+point 1672.0 -640.0 passage-height -value [.3 m]
+
+point 1116.0 -1394.0 passage-height -value [.4 m]
+
+point 1292.0 -738.0 paleo-material
+
+point 1216.0 -688.0 paleo-material
 
 point 860.0 -1260.0 label -text Fossils
 
@@ -93,6 +100,7 @@ line wall -subtype flowstone
   1688.0 -146.0 1622.0 -138.0 1610.0 -138.0
   1598.0 -138.0 1530.0 -156.0 1516.0 -168.0
   1502.0 -180.0 1436.0 -188.0 1410.0 -192.0
+  smooth off
 endline
 
 line wall
@@ -111,6 +119,7 @@ line wall
   628.0 -1236.0 454.0 -1308.0 432.0 -1316.0
   410.0 -1324.0 354.0 -1344.0 338.0 -1344.0
   322.0 -1344.0 294.0 -1344.0 284.0 -1338.0
+  smooth off
 endline
 
 line ceiling-step

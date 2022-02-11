@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -30163 2219 144.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -30163 2219 152.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B2.1_PLAN.jpg 0 {}
 
 
@@ -67,6 +67,7 @@ endline
 line rock-edge
   1088.0 -27906.0
   1088.0 -27906.0 1110.0 -28064.0 1102.0 -28052.0
+  smooth off
 endline
 
 line rock-border -close on
@@ -110,6 +111,18 @@ line border -id l16-976--28520 -close on -subtype invisible
 endline
 
 point 568.0 -27852.0 passage-height -value [1.35 ft]
+
+line rock-border -close on
+  620.0 -28476.0
+  624.0 -28444.0 624.0 -28408.0 652.0 -28392.0
+  680.0 -28376.0 716.0 -28412.0 712.0 -28432.0
+  708.0 -28452.0 660.0 -28496.0 660.0 -28496.0
+  smooth off
+  660.0 -28496.0 616.0 -28508.0 620.0 -28476.0
+endline
+
+line rock-border
+endline
 
 endscrap
 

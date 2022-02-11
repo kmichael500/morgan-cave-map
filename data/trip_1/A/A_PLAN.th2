@@ -1607,6 +1607,24 @@ line ceiling-step
   smooth off
 endline
 
+point 6660.0 -3488.0 passage-height -value [9 ft]
+
+point 9544.0 -7596.0 passage-height -value [.9 m]
+
+point 8776.0 -9808.0 passage-height -value [10 in]
+
+point 7280.0 -5728.0 passage-height -value [1.6 m]
+
+point 6140.0 -6408.0 passage-height -value [7 ft]
+
+point 4728.0 -5916.0 passage-height -value [10 ft]
+
+point 3088.0 -4104.0 passage-height -value [9 ft]
+
+point 1644.0 -3000.0 passage-height -value [8 ft]
+
+point 2820.0 -1340.0 passage-height -value [5.5 ft]
+
 line ceiling-step
   6598.0 -5222.0
   6590.0 -5120.0 6586.0 -5124.0 6576.0 -5070.0
