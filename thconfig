@@ -12,9 +12,20 @@ north true
 symbol-set NSS
 endlayout
 
+layout debug
+legend on
+scale 1 100
+#debug all
+north true
+
+#units imperial
+symbol-set NSS
+endlayout
+
 #export
 export model -fmt survex -o morgans.3d
 export model -o morgans.lox
 export model -fmt kml -o morgans.kml
 export map -projection plan -layout local -o morgans.pdf
+export map -projection plan -layout debug -o morgans-debug.pdf
 export map -proj plan -fmt kml -o morgans_map.kml
