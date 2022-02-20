@@ -4,6 +4,7 @@ encoding utf-8
 survey BDDA \
 
 input BDDA_PLAN.th2
+input ../../trip_2/cross-sections/cross-sections.th2
 
 map BDDAMP
   BDDASP

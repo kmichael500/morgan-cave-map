@@ -782,11 +782,12 @@ point 1340.0 -2068.0 stalactite
 
 point 1182.0 -2597.0 stalactite
 
-point 358.0 -2232.0 section -scrap eSX5
+point 366.0 -2250.0 section -scrap eSX5
 
 line section -reverse on -direction both
   872.0 -3310.0
   860.74 -3271.62 562.0 -2598.0 504.0 -2466.0
+  smooth off
 endline
 
 point 566.0 -3656.0 section -scrap eSX2
@@ -794,6 +795,7 @@ point 566.0 -3656.0 section -scrap eSX2
 line section -reverse on -direction begin
   508.0 -3730.0
   487.86 -3764.56 308.14 -4033.44 288.0 -4068.0
+  smooth off
 endline
 
 line border -subtype invisible

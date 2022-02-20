@@ -4,6 +4,7 @@ encoding utf-8
 survey BA
 
 input BA_PLAN.th2
+input ../cross-sections/cross-sections.th2
 
 map BAMP
   BASP

@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -20284 14790 144.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -132.0 -20284 14790 141.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B-D-DA_PLAN.jpg 0 {}
 
 
@@ -134,7 +134,7 @@ point 9888.0 -18616.0 passage-height -value [5 ft]
 
 point 10354.0 -17718.0 passage-height -value [2 m]
 
-point 11026.0 -15782.0 passage-height -value [2 m]
+point 11305.0 -15873.0 passage-height -value [2 m]
 
 point 10702.0 -14264.0 passage-height -value [.7 m]
 
@@ -156,11 +156,12 @@ line wall -reverse on -subtype presumed
   10790.0 -16112.0
 endline
 
-point 9818.0 -19148.0 section -scrap bSX16
+point 9776.0 -19194.0 section -scrap bSX16
 
 line section -direction both
-  9920.0 -19070.0
-  9946.04 -19039.64 10041.59 -18931.54 10068.0 -18902.0
+  9878.0 -19098.0
+  9904.04 -19067.64 10041.59 -18931.54 10068.0 -18902.0
+  smooth off
 endline
 
 line wall
@@ -777,6 +778,7 @@ point 9658.0 -7878.0 section -scrap dSX3
 line section -direction both
   9922.0 -7916.0
   9960.76 -7925.86 10359.22 -8034.2 10398.0 -8044.0
+  smooth off
 endline
 
 line wall -close on
@@ -1344,6 +1346,17 @@ point 11310.0 -8230.0 gradient -orientation 10.4
 
 point 11110.0 -7994.0 gradient -orientation 150.1
 
+point 11241.0 -16168.0 section -scrap bSX12
+
+line section -direction begin
+  10668.0 -15606.0
+  10701.7 -15627.54 10965.0 -15828.0 11133.0 -15954.0
+  smooth off
+endline
+
+line wall
+endline
+
 line border -id l153-10573--16546 -subtype invisible
   10504.0 -16560.0
   10594.0 -16541.0
@@ -1486,6 +1499,7 @@ endline
 line section -direction both
   10058.0 -17654.0
   10090.77 -17676.94 10311.71 -17824.39 10344.0 -17848.0
+  smooth off
 endline
 
 line border -id l152-10783--16020 -subtype invisible

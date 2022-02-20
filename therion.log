@@ -150,7 +150,7 @@ therion: warning -- data not georeferenced -- unable to export KML file
 writing morgans.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 14:12
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 14:51
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -159,41 +159,42 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
  [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
 4012] [4013]
 [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-[18] [19] [20] [21] [22] [23] [24] [25] [26]
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [413])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [413])] [27] [28]
-[29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
-[44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58]
-[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
-[74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [31] [32]
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62]
+[63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
+[78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92]
+[93] [94] [95] [96]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [413])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [413])] [86] [87]
-[88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
-[103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115]
-[116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128]
-[129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141]
-[142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152]
-(./mptextmp.mp) [153] [154] [155] [156] [157] [158] [159] [160] [161] [162]
-[163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175]
-[176] [177] [178] [179] [180] [181] [182] [183] [184] )
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [97] [98]
+[99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
+[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]
+[125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
+[151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163]
+[164] [165] [166] (./mptextmp.mp) [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199] )
+
  
 Here is how much of MetaPost's memory you used:
- 44281 strings using 984761 characters
- 4490208 bytes of node memory
+ 45347 strings using 1006062 characters
+ 4519168 bytes of node memory
  1576 symbolic tokens
- 11i,82n,17p,580b,5f stack positions out of 16i,98n,21p,608b,6f
-197 output files written: data.1 .. data.4013
+ 11i,82n,17p,580b,5f stack positions out of 16i,98n,21p,608b,6f212 output files written: data.1 .. data.4013
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -207,28 +208,28 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 484 strings out of 497099
- 4915 string characters out of 6206936
+ 505 strings out of 497099
+ 5140 string characters out of 6206936
  172521 words of memory out of 5000000
- 1713 multiletter control sequences out of 15000+600000
+ 1734 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  12i,5n,9p,598b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 780125 bytes).
+Output written on data.pdf (1 page, 794686 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
+ 604 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 1645 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1771 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 writing morgans-debug.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 14:12
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 14:51
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -237,41 +238,42 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
  [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
 4012] [4013]
 [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-[18] [19] [20] [21] [22] [23] [24] [25] [26]
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [413])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [413])] [27] [28]
-[29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
-[44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58]
-[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
-[74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [31] [32]
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62]
+[63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
+[78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92]
+[93] [94] [95] [96]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [413])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [413])] [86] [87]
-[88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
-[103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115]
-[116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128]
-[129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141]
-[142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152]
-(./mptextmp.mp) [153] [154] [155] [156] [157] [158] [159] [160] [161] [162]
-[163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175]
-[176] [177] [178] [179] [180] [181] [182] [183] [184] )
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [97] [98]
+[99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
+[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]
+[125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
+[151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163]
+[164] [165] [166] (./mptextmp.mp) [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199] )
+
  
 Here is how much of MetaPost's memory you used:
- 44281 strings using 984761 characters
- 4490208 bytes of node memory
+ 45347 strings using 1006062 characters
+ 4519168 bytes of node memory
  1576 symbolic tokens
- 11i,82n,17p,580b,5f stack positions out of 16i,98n,21p,608b,6f
-197 output files written: data.1 .. data.4013
+ 11i,82n,17p,580b,5f stack positions out of 16i,98n,21p,608b,6f212 output files written: data.1 .. data.4013
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -285,21 +287,21 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 484 strings out of 497099
- 4915 string characters out of 6206936
+ 505 strings out of 497099
+ 5140 string characters out of 6206936
  172521 words of memory out of 5000000
- 1713 multiletter control sequences out of 15000+600000
+ 1734 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  12i,5n,9p,598b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 780125 bytes).
+Output written on data.pdf (1 page, 794686 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
+ 604 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 1645 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1771 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -323,7 +325,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
    6.65%   93.67%  B15SP@B15.morgan
-   0.62%   85.29%  BDDASP@BDDA.morgan
+   0.63%   85.29%  BDDASP@BDDA.morgan
    1.87%   82.06%  B19SP@B19.morgan
    0.36%   80.35%  CSP@C.morgan
    8.27%   68.82%  B21SP@B21.morgan
@@ -331,7 +333,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    4.04%   38.85%  B6SP@B6.morgan
    1.29%   36.62%  B12SP@B12.morgan
    3.82%   34.30%  B9SP@B9.morgan
-   1.12%   30.56%  BASP@BA.morgan
+   1.07%   30.56%  BASP@BA.morgan
    0.39%   27.63%  ASP@A.morgan
    2.35%   25.32%  FSP@F.morgan
    1.82%   20.37%  B7SP@B7.morgan
