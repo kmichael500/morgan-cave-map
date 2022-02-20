@@ -170,17 +170,17 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 656.0 -1212.0 station -name B12.2.1
+point 656.0 -1212.0 station -name B12.2.1 -subtype fixed
 
-point 292.0 -3488.0 station -name B12.4
+point 292.0 -3488.0 station -name B12.4 -subtype fixed
 
-point 620.0 -3088.0 station -name B12.3
+point 620.0 -3088.0 station -name B12.3 -subtype fixed
 
-point 1424.0 -2412.0 station -name B12.2
+point 1424.0 -2412.0 station -name B12.2 -subtype fixed
 
-point 1654.0 -1668.0 station -name B12.1
+point 1654.0 -1668.0 station -name B12.1 -subtype fixed
 
-point 2634.0 -746.0 station -name B12
+point 2634.0 -746.0 station -name B12 -subtype fixed
 
 point 346.0 -1240.0 label -text TT -align center
 

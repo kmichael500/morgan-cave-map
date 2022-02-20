@@ -607,7 +607,7 @@ point 1296.0 -1476.0 height -value [8 ft]
 
 point 1202.0 -2066.0 passage-height -value [5 ft]
 
-point 3833.0 -3989.0 station -name E7.3.1
+point 3833.0 -3989.0 station -name E7.3.1 -subtype fixed
 
 line ceiling-step
   336.0 -4036.0
@@ -627,19 +627,19 @@ point 371.0 -3888.0 passage-height -value [1.8 ft]
 
 point 2726.0 -3746.0 passage-height -value [.6 m]
 
-point 2186.0 -4628.0 station
+point 2186.0 -4628.0 station -subtype fixed
 
-point 2142.0 -4780.0 station -name E7.6
+point 2142.0 -4780.0 station -name E7.6 -subtype fixed
 
-point 2330.0 -4254.0 station -name E7.5
+point 2330.0 -4254.0 station -name E7.5 -subtype fixed
 
-point 2860.0 -3774.0 station -name E7.4
+point 2860.0 -3774.0 station -name E7.4 -subtype fixed
 
-point 2950.0 -3386.0 station -name E7.3
+point 2950.0 -3386.0 station -name E7.3 -subtype fixed
 
-point 2422.0 -2630.0 station -name E7.2
+point 2422.0 -2630.0 station -name E7.2 -subtype fixed
 
-point 1790.0 -2028.0 station -name E7.1
+point 1790.0 -2028.0 station -name E7.1 -subtype fixed
 
 line wall
   789.0 -3181.0
@@ -748,29 +748,29 @@ line wall
   smooth off
 endline
 
-point 1774.0 -534.0 station -name E11
+point 1774.0 -534.0 station -name E11 -subtype fixed
 
-point 1778.0 -933.0 station -name E10
+point 1778.0 -933.0 station -name E10 -subtype fixed
 
-point 1392.0 -1088.0 station -name E9
+point 1392.0 -1088.0 station -name E9 -subtype fixed
 
-point 1079.0 -1556.0 station -name E8
+point 1079.0 -1556.0 station -name E8 -subtype fixed
 
-point 1246.0 -1981.0 station -name E7
+point 1246.0 -1981.0 station -name E7 -subtype fixed
 
-point 1323.0 -2463.0 station -name E6
+point 1323.0 -2463.0 station -name E6 -subtype fixed
 
-point 578.0 -2862.0 station -name E5
+point 578.0 -2862.0 station -name E5 -subtype fixed
 
-point 565.0 -3070.0 station -name E4
+point 565.0 -3070.0 station -name E4 -subtype fixed
 
-point 165.0 -3572.0 station -name E3
+point 165.0 -3572.0 station -name E3 -subtype fixed
 
-point 366.0 -3722.0 station -name E2
+point 366.0 -3722.0 station -name E2 -subtype fixed
 
-point 451.0 -4200.0 station -name E1
+point 451.0 -4200.0 station -name E1 -subtype fixed
 
-point 506.0 -4142.0 station -name D3
+point 506.0 -4142.0 station -name D3 -subtype fixed
 
 point 1264.0 -2432.0 stalactite
 
@@ -951,11 +951,11 @@ line wall
   smooth off
 endline
 
-point 332.0 -3249.0 station -name E5.3
+point 332.0 -3249.0 station -name E5.3 -subtype fixed
 
-point 250.0 -3627.0 station -name E5.2
+point 250.0 -3627.0 station -name E5.2 -subtype fixed
 
-point 687.0 -3308.0 station -name E5.1
+point 687.0 -3308.0 station -name E5.1 -subtype fixed
 
 endscrap
 

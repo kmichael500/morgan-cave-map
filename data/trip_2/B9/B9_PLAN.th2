@@ -79,11 +79,11 @@ line wall -reverse on
   380.0 -1304.0 328.0 -1287.0 321.0 -1284.0
 endline
 
-point 1255.0 -2029.0 station -name B9.2
+point 1255.0 -2029.0 station -name B9.2 -subtype fixed
 
-point 244.0 -1086.0 station -name B9.1
+point 244.0 -1086.0 station -name B9.1 -subtype fixed
 
-point 327.0 -240.0 station -name B9
+point 327.0 -240.0 station -name B9 -subtype fixed
 
 endscrap
 

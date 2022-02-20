@@ -70,9 +70,9 @@ point 1232.0 -1440.0 gradient -orientation 148.2
 
 point 1420.0 -1908.0 passage-height -value [4.5 ft]
 
-point 1927.0 -1956.0 station -name B7.1
+point 1927.0 -1956.0 station -name B7.1 -subtype fixed
 
-point 238.0 -390.0 station -name B7
+point 238.0 -390.0 station -name B7 -subtype fixed
 
 endscrap
 

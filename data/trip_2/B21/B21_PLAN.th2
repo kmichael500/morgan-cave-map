@@ -7,17 +7,17 @@ encoding  utf-8
 
 scrap B21SP -projection plan -scale [130.0 -29792.0 607.0 -29797.0 0.0 0.0 2 0.0 m]
 
-point 1638.0 -26568.0 station -name B2.5
+point 1638.0 -26568.0 station -name B2.5 -subtype fixed
 
-point 702.0 -26338.0 station -name B2.4
+point 702.0 -26338.0 station -name B2.4 -subtype fixed
 
-point 868.0 -26780.0 station -name B2.3
+point 868.0 -26780.0 station -name B2.3 -subtype fixed
 
-point 822.0 -27962.0 station -name B2.2
+point 822.0 -27962.0 station -name B2.2 -subtype fixed
 
-point 514.0 -28534.0 station -name B2.1
+point 514.0 -28534.0 station -name B2.1 -subtype fixed
 
-point 837.0 -29796.0 station -name B2
+point 837.0 -29796.0 station -name B2 -subtype fixed
 
 line wall
 endline

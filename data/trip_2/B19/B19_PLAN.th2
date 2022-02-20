@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap B19SP -projection plan -scale [71.0 -4251.0 543.0 -4252.0 0.0 0.0 0 3 m]
 
-point 1367.0 -935.0 station -name B20.1
+point 1367.0 -935.0 station -name B20.1 -subtype fixed
 
 line wall -reverse on
   1306.0 -762.0
@@ -350,21 +350,21 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 506.0 -2886.0 station -name B22.1
+point 506.0 -2886.0 station -name B22.1 -subtype fixed
 
-point 674.0 -4137.0 station -name B24
+point 674.0 -4137.0 station -name B24 -subtype fixed
 
-point 863.0 -3693.0 station -name B23
+point 863.0 -3693.0 station -name B23 -subtype fixed
 
-point 768.0 -3129.0 station -name B22
+point 768.0 -3129.0 station -name B22 -subtype fixed
 
-point 972.0 -2091.0 station -name B21
+point 972.0 -2091.0 station -name B21 -subtype fixed
 
-point 1101.0 -1423.0 station -name B20
+point 1101.0 -1423.0 station -name B20 -subtype fixed
 
-point 1191.0 -729.0 station -name B19
+point 1191.0 -729.0 station -name B19 -subtype fixed
 
-point 1016.0 -158.0 station -name B18
+point 1016.0 -158.0 station -name B18 -subtype fixed
 
 area clay
   l47-977--1152

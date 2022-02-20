@@ -7,13 +7,13 @@ encoding  utf-8
 
 scrap FSP -scale [155.0 -2138.0 631.0 -2138.0 0.0 0.0 2 0.0 m]
 
-point 1391.0 -553.0 station -name F3
+point 1391.0 -553.0 station -name F3 -subtype fixed
 
-point 195.0 -1940.0 station -name F1
+point 195.0 -1940.0 station -name F1 -subtype fixed
 
-point 763.0 -1310.0 station -name F2
+point 763.0 -1310.0 station -name F2 -subtype fixed
 
-point 159.0 -1982.5 station -name B1
+point 159.0 -1982.5 station -name B1 -subtype fixed
 
 line ceiling-step
   678.0 -1206.0

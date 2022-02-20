@@ -199,17 +199,17 @@ line wall -reverse on
   smooth off
 endline
 
-point 736.0 -598.0 station -name BA2
+point 736.0 -598.0 station -name BA2 -subtype fixed
 
-point 1428.0 -1362.0 station -name BA1
+point 1428.0 -1362.0 station -name BA1 -subtype fixed
 
-point 3996.0 -3212.0 station -name B10.3
+point 3996.0 -3212.0 station -name B10.3 -subtype fixed
 
-point 3612.0 -3352.0 station -name B10.2
+point 3612.0 -3352.0 station -name B10.2 -subtype fixed
 
-point 2652.0 -2308.0 station -name B10.1
+point 2652.0 -2308.0 station -name B10.1 -subtype fixed
 
-point 3128.0 -2222.0 station -name B10
+point 3128.0 -2222.0 station -name B10 -subtype fixed
 
 endscrap
 

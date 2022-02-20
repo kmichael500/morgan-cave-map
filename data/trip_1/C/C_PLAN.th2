@@ -7,11 +7,11 @@ encoding  utf-8
 
 scrap CSP -scale [17.0 -5316.0 375.0 -5318.0 0.0 0.0 0 3 m]
 
-point 2860.0 -2933.0 station -name C6
+point 2860.0 -2933.0 station -name C6 -subtype fixed
 
-point 2268.0 -3880.0 station -name C5
+point 2268.0 -3880.0 station -name C5 -subtype fixed
 
-point 1625.0 -4580.0 station -name C4
+point 1625.0 -4580.0 station -name C4 -subtype fixed
 
 point 2152.0 -3980.0 water-flow -orientation 218.2 -subtype intermittent
 
@@ -762,35 +762,35 @@ line wall -reverse on
   smooth off
 endline
 
-point 4865.0 -2910.0 station -name C8.3
+point 4865.0 -2910.0 station -name C8.3 -subtype fixed
 
-point 4726.0 -2947.0 station -name C8.2
+point 4726.0 -2947.0 station -name C8.2 -subtype fixed
 
-point 4307.0 -2669.0 station -name C8.1
+point 4307.0 -2669.0 station -name C8.1 -subtype fixed
 
-point 4186.0 -2167.0 station -name C8.4
+point 4186.0 -2167.0 station -name C8.4 -subtype fixed
 
-point 5458.0 -325.0 station -name a6
+point 5458.0 -325.0 station -name a6 -subtype fixed
 
-point 5186.0 -583.0 station -name C13
+point 5186.0 -583.0 station -name C13 -subtype fixed
 
-point 5045.0 -846.0 station -name C12
+point 5045.0 -846.0 station -name C12 -subtype fixed
 
-point 4871.0 -957.0 station -name C11
+point 4871.0 -957.0 station -name C11 -subtype fixed
 
-point 4847.0 -1129.0 station -name C10
+point 4847.0 -1129.0 station -name C10 -subtype fixed
 
-point 4491.0 -1792.0 station -name C9
+point 4491.0 -1792.0 station -name C9 -subtype fixed
 
-point 4255.0 -2125.0 station -name C8
+point 4255.0 -2125.0 station -name C8 -subtype fixed
 
-point 3413.0 -1865.0 station -name C7
+point 3413.0 -1865.0 station -name C7 -subtype fixed
 
-point 1491.0 -4977.0 station -name C3
+point 1491.0 -4977.0 station -name C3 -subtype fixed
 
-point 483.0 -4238.0 station -name C1
+point 483.0 -4238.0 station -name C1 -subtype fixed
 
-point 256.0 -4316.0 station -name B12
+point 256.0 -4316.0 station -name B12 -subtype fixed
 
 point 5117.0 -498.0 passage-height -value [1.5 m]
 
@@ -827,7 +827,7 @@ endscrap
 
 scrap cSX4 -projection none -scale [1477.0 -4635.0 1578.0 -4613.0 0.0 0.0 1 0 m]
 
-point 1471.0 -4569.0 station -name C4
+point 1471.0 -4569.0 station -name C4 -subtype fixed
 
 line wall -close on -reverse on
   1474.0 -4630.0

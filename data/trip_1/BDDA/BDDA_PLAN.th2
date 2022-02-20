@@ -144,9 +144,9 @@ point 12553.0 -9680.0 passage-height -value [1.1 m]
 
 point 13197.0 -9137.0 passage-height -value [6 ft]
 
-point 13405.0 -9593.0 station -name B1
+point 13405.0 -9593.0 station -name B1 -subtype fixed
 
-point 14373.5 -10316.0 station -name A3
+point 14373.5 -10316.0 station -name A3 -subtype fixed
 
 line wall -reverse on -subtype presumed
   10924.0 -15918.0
@@ -714,29 +714,29 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 13024.0 -11154.0 station -name B1.1
+point 13024.0 -11154.0 station -name B1.1 -subtype fixed
 
-point 12032.0 -8657.0 station -name DA3
+point 12032.0 -8657.0 station -name DA3 -subtype fixed
 
-point 11772.0 -9108.0 station -name DA2
+point 11772.0 -9108.0 station -name DA2 -subtype fixed
 
-point 11308.0 -9874.0 station -name DA1
+point 11308.0 -9874.0 station -name DA1 -subtype fixed
 
-point 12274.0 -9548.0 station -name D7
+point 12274.0 -9548.0 station -name D7 -subtype fixed
 
-point 11164.0 -10572.0 station -name D6
+point 11164.0 -10572.0 station -name D6 -subtype fixed
 
-point 9474.0 -9338.0 station -name D5
+point 9474.0 -9338.0 station -name D5 -subtype fixed
 
-point 8878.0 -7984.0 station -name D4.1
+point 8878.0 -7984.0 station -name D4.1 -subtype fixed
 
-point 9822.0 -8696.0 station -name D4
+point 9822.0 -8696.0 station -name D4 -subtype fixed
 
-point 10088.0 -7742.0 station -name D3
+point 10088.0 -7742.0 station -name D3 -subtype fixed
 
-point 11362.0 -8072.0 station -name D2
+point 11362.0 -8072.0 station -name D2 -subtype fixed
 
-point 11888.0 -8724.0 station -name D1
+point 11888.0 -8724.0 station -name D1 -subtype fixed
 
 line wall -reverse on
   11550.0 -8118.0
@@ -963,41 +963,41 @@ line wall
   smooth off
 endline
 
-point 10264.0 -19397.0 station -name B17.1
+point 10264.0 -19397.0 station -name B17.1 -subtype fixed
 
-point 10053.0 -19733.0 station -name B18
+point 10053.0 -19733.0 station -name B18 -subtype fixed
 
-point 10135.0 -19253.0 station -name B17
+point 10135.0 -19253.0 station -name B17 -subtype fixed
 
-point 9984.0 -18992.0 station -name B16
+point 9984.0 -18992.0 station -name B16 -subtype fixed
 
-point 9643.0 -18589.0 station -name B15
+point 9643.0 -18589.0 station -name B15 -subtype fixed
 
-point 10174.0 -17725.0 station -name B14
+point 10174.0 -17725.0 station -name B14 -subtype fixed
 
-point 10353.0 -16586.0 station -name B13
+point 10353.0 -16586.0 station -name B13 -subtype fixed
 
-point 10960.0 -15685.0 station -name B12
+point 10960.0 -15685.0 station -name B12 -subtype fixed
 
-point 10299.0 -15222.0 station -name B11
+point 10299.0 -15222.0 station -name B11 -subtype fixed
 
-point 10783.0 -14527.0 station -name B10
+point 10783.0 -14527.0 station -name B10 -subtype fixed
 
-point 11015.0 -13555.0 station -name B9
+point 11015.0 -13555.0 station -name B9 -subtype fixed
 
-point 11464.0 -12800.0 station -name B8
+point 11464.0 -12800.0 station -name B8 -subtype fixed
 
-point 11598.0 -11870.0 station -name B7
+point 11598.0 -11870.0 station -name B7 -subtype fixed
 
-point 11917.0 -11144.0 station -name B6
+point 11917.0 -11144.0 station -name B6 -subtype fixed
 
-point 12043.0 -10251.0 station -name B5
+point 12043.0 -10251.0 station -name B5 -subtype fixed
 
-point 12509.0 -9745.0 station -name B4
+point 12509.0 -9745.0 station -name B4 -subtype fixed
 
-point 12342.0 -9308.0 station -name B3
+point 12342.0 -9308.0 station -name B3 -subtype fixed
 
-point 12650.0 -9270.0 station -name B2
+point 12650.0 -9270.0 station -name B2 -subtype fixed
 
 line wall -reverse on
   13982.0 -10504.0
@@ -1649,7 +1649,7 @@ endscrap
 
 scrap dSX3 -projection none -flip horizontal -scale [9820.0 -8428.0 10046.0 -8426.0 0.0 0 2.5 0 m]
 
-point 10026.0 -8358.0 station -name D3
+point 10026.0 -8358.0 station -name D3 -subtype fixed
 
 line wall -close on
   9906.5 -8337.5
@@ -1701,7 +1701,7 @@ endscrap
 
 scrap bSX16 -projection none -scale [9648.0 -19176.0 9886.0 -19176.0 0.0 0 2 0 m]
 
-point 9725.0 -19080.0 station -name B16
+point 9725.0 -19080.0 station -name B16 -subtype fixed
 
 area water
   l208-9752--19193

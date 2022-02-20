@@ -1057,46 +1057,46 @@ line wall
   smooth off
 endline
 
-point 8425.0 -9710.0 station -name A13
+point 8425.0 -9710.0 station -name A13 -subtype fixed
 
 line wall
 endline
 
-point 8404.0 -8796.0 station -name A12
+point 8404.0 -8796.0 station -name A12 -subtype fixed
 
-point 9376.0 -7522.0 station -name A11
+point 9376.0 -7522.0 station -name A11 -subtype fixed
 
-point 8240.0 -6616.0 station -name A10
+point 8240.0 -6616.0 station -name A10 -subtype fixed
 
-point 9551.0 -6393.0 station -name A11.1
+point 9551.0 -6393.0 station -name A11.1 -subtype fixed
 
-point 9376.0 -7522.0 station -name A11
+point 9376.0 -7522.0 station -name A11 -subtype fixed
 
-point 7763.0 -3077.0 station -name A9.1
+point 7763.0 -3077.0 station -name A9.1 -subtype fixed
 
-point 6486.0 -4226.0 station -name A9
+point 6486.0 -4226.0 station -name A9 -subtype fixed
 
-point 5942.0 -6158.0 station -name A8
+point 5942.0 -6158.0 station -name A8 -subtype fixed
 
-point 5363.0 -4155.0 station -name A7.1
+point 5363.0 -4155.0 station -name A7.1 -subtype fixed
 
-point 4788.0 -4954.0 station -name A7
+point 4788.0 -4954.0 station -name A7 -subtype fixed
 
-point 4294.0 -5926.0 station -name A6
+point 4294.0 -5926.0 station -name A6 -subtype fixed
 
-point 3270.0 -5124.0 station -name A5
+point 3270.0 -5124.0 station -name A5 -subtype fixed
 
-point 2678.0 -4180.0 station -name A4
+point 2678.0 -4180.0 station -name A4 -subtype fixed
 
-point 1594.0 -3862.0 station -name A3
+point 1594.0 -3862.0 station -name A3 -subtype fixed
 
-point 2678.0 -4180.0 station -name A4
+point 2678.0 -4180.0 station -name A4 -subtype fixed
 
-point 424.0 -5026.0 station -name A3.1
+point 424.0 -5026.0 station -name A3.1 -subtype fixed
 
-point 2720.0 -2722.0 station -name A2
+point 2720.0 -2722.0 station -name A2 -subtype fixed
 
-point 3314.0 -1430.0 station -name A1
+point 3314.0 -1430.0 station -name A1 -subtype fixed
 
 line wall -reverse on -subtype presumed
   8832.0 -9744.0
@@ -1887,7 +1887,7 @@ endscrap
 
 scrap aSX12 -projection none -flip horizontal -scale [7258.0 -9036.0 7770.0 -8948.0 0 0 3 0 m]
 
-point 7352.0 -8876.0 station -name A12
+point 7352.0 -8876.0 station -name A12 -subtype fixed
 
 line wall -close on -reverse on
   7266.0 -8916.0
@@ -1923,7 +1923,7 @@ endscrap
 
 scrap aSX4 -projection none -flip horizontal -scale [2068.0 -5160.0 2608.0 -5160.0 0 0 4 0 m]
 
-point 2272.0 -4792.0 station -name A4
+point 2272.0 -4792.0 station -name A4 -subtype fixed
 
 line wall -close on
   2142.0 -4596.0
@@ -1958,7 +1958,7 @@ endscrap
 
 scrap aSX11.1 -projection none -flip horizontal -scale [9336.0 -5676.0 10052.0 -5676.0 0 0 4 0 m]
 
-point 9506.0 -5586.0 station -name A11.1
+point 9506.0 -5586.0 station -name A11.1 -subtype fixed
 
 line wall -close on -reverse on
   9918.0 -5652.0
@@ -2030,7 +2030,7 @@ line rock-border -close on
   smooth off
 endline
 
-point 3426.0 -2790.0 station -name A1
+point 3426.0 -2790.0 station -name A1 -subtype fixed
 
 line wall -close on
   3116.0 -2526.0
