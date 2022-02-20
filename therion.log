@@ -150,7 +150,7 @@ therion: warning -- data not georeferenced -- unable to export KML file
 writing morgans.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 12:34
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 12:53
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -174,23 +174,24 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [406])] [69] [70]
 [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
 [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
 [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
-[114] (./mptextmp.mp) [115] [116] [117] [118] [119] [120] [121] [122] [123]
+[114] [115] [116] [117] [118] (./mptextmp.mp) [119] [120] [121] [122] [123]
 [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136]
-[137] [138] [139] [140] [141] [142] [143] [144] [145] [146] )
+[137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
+[150] )
  
 Here is how much of MetaPost's memory you used:
- 41163 strings using 927041 characters
- 4418384 bytes of node memory
+ 41412 strings using 931796 characters
+ 4424256 bytes of node memory
  1576 symbolic tokens
  11i,82n,17p,580b,5f stack positions out of 16i,98n,21p,608b,6f
-159 output files written: data.1 .. data.4013
+163 output files written: data.1 .. data.4013
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -199,32 +200,32 @@ entering extended mode
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 238 numeric registers used out of 32768
+ 244 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 430 strings out of 497099
- 4327 string characters out of 6206936
+ 436 strings out of 497099
+ 4393 string characters out of 6206936
  172521 words of memory out of 5000000
- 1659 multiletter control sequences out of 15000+600000
+ 1665 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  12i,5n,8p,598b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 741080 bytes).
+Output written on data.pdf (1 page, 744534 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
+ 465 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 1321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 writing morgans-debug.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 12:34
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 12:53
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -248,23 +249,24 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [406])] [69] [70]
 [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
 [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
 [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
-[114] (./mptextmp.mp) [115] [116] [117] [118] [119] [120] [121] [122] [123]
+[114] [115] [116] [117] [118] (./mptextmp.mp) [119] [120] [121] [122] [123]
 [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136]
-[137] [138] [139] [140] [141] [142] [143] [144] [145] [146] )
+[137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
+[150] )
  
 Here is how much of MetaPost's memory you used:
- 41163 strings using 927041 characters
- 4418384 bytes of node memory
+ 41412 strings using 931796 characters
+ 4424256 bytes of node memory
  1576 symbolic tokens
  11i,82n,17p,580b,5f stack positions out of 16i,98n,21p,608b,6f
-159 output files written: data.1 .. data.4013
+163 output files written: data.1 .. data.4013
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -273,25 +275,25 @@ entering extended mode
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 238 numeric registers used out of 32768
+ 244 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 430 strings out of 497099
- 4327 string characters out of 6206936
+ 436 strings out of 497099
+ 4393 string characters out of 6206936
  172521 words of memory out of 5000000
- 1659 multiletter control sequences out of 15000+600000
+ 1665 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  12i,5n,8p,598b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 741080 bytes).
+Output written on data.pdf (1 page, 744534 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
+ 465 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 1321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
