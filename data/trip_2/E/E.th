@@ -4,6 +4,7 @@ encoding utf-8
 survey E
 
 input E_PLAN.th2
+input ../cross-sections/cross-sections.th2
 
 map EMP
   ESP

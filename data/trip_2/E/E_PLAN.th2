@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -5073.0 4821.0 152.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -136.0 -5073.0 4821.0 144.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 {}} E_PLAN.jpg 0 {}
 
 
@@ -781,6 +781,20 @@ point 1248.0 -2234.0 stalactite
 point 1340.0 -2068.0 stalactite
 
 point 1182.0 -2597.0 stalactite
+
+point 358.0 -2232.0 section -scrap eSX5
+
+line section -reverse on -direction both
+  872.0 -3310.0
+  860.74 -3271.62 562.0 -2598.0 504.0 -2466.0
+endline
+
+point 566.0 -3656.0 section -scrap eSX2
+
+line section -reverse on -direction begin
+  508.0 -3730.0
+  487.86 -3764.56 308.14 -4033.44 288.0 -4068.0
+endline
 
 line border -subtype invisible
 endline
