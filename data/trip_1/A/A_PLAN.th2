@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -10553 10465 144.0
+##XTHERION## xth_me_area_adjust -144.0 -10553 10465 152.0
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} A_PLAN.jpg 0 {}
 
@@ -24,6 +24,7 @@ point 1968.0 -4828.0 section -scrap aSX4
 line section -direction both
   2336.0 -4528.0
   2396.27 -4458.58 2824.0 -3964.0 2916.0 -3860.0
+  smooth off
 endline
 
 line rock-border -close on
@@ -834,7 +835,7 @@ line rock-border -close on
   8592.0 -7542.0 8596.0 -7596.0 8602.0 -7586.0
 endline
 
-point 3610.0 -824.0 label -text Entrance -align center
+point 3610.0 -824.0 label -text Entrance -align center -scale xl
 
 point 3670.0 -682.0 entrance -visibility off
 
@@ -1122,6 +1123,7 @@ point 9054.0 -6268.0 section -scrap aSX11.1
 line section -direction both
   9402.0 -6304.0
   9515.99 -6318.12 10176.0 -6400.0 10290.0 -6414.0
+  smooth off
 endline
 
 line section
@@ -1394,6 +1396,7 @@ point 9100.0 -8956.0 section -scrap aSX12
 line section -direction both
   7936.0 -8614.0
   7973.44 -8628.09 8612.85 -8881.17 8650.0 -8896.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -1863,6 +1866,7 @@ point 4296.0 -1936.0 section -scrap aSX1
 line section -direction both
   2882.0 -1208.0
   3004.0 -1270.0 3762.0 -1652.0 3852.0 -1696.0
+  smooth off
 endline
 
 line ceiling-step
