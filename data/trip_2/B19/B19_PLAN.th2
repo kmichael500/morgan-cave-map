@@ -289,7 +289,7 @@ line border -id l34-1125--664 -close on -subtype invisible
   1194.0 -646.0
 endline
 
-point 584.0 -4224.0 label -text [Sump/sloppy mud fill] -align top-left
+point 584.0 -4224.0 label -text [sump/sloppy mud fill] -align top-left -scale l
 
 area debris
   l58-1050--1390

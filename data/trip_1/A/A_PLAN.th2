@@ -784,7 +784,7 @@ endline
 area water
 endarea
 
-point 8312.0 -8480.0 label -text [Dirt Mound]
+point 8312.0 -8480.0 label -text [dirt mound] -scale l
 
 point 4740.0 -4876.0 stalactite
 
@@ -980,19 +980,19 @@ endline
 
 point 5724.0 -6116.0 paleo-material
 
-point 500.0 -5204.0 label -text [Lead in ceiling. Very tight.]
+point 500.0 -5204.0 label -text [lead in ceiling - very tight] -scale l
 
 point 8024.0 -10302.0 label -text TT
 
-point 8924.0 -9676.0 label -text dig...air
+point 8924.0 -9676.0 label -text dig...air -scale l
 
 point 5162.0 -4442.0 label -text TT
 
-point 3584.0 -1704.0 label -text Trough
+point 3584.0 -1704.0 label -text Trough -scale l
 
-point 2684.0 -5052.0 label -text [Large crinoid fossils]
+point 2684.0 -5052.0 label -text [large crinoid fossils] -scale l
 
-point 9436.0 -6556.0 label -text [Historic 1800s signatures]
+point 9436.0 -6556.0 label -text [historic 1800s signatures] -scale l
 
 point 3544.0 -1052.0 gradient -orientation 207.0
 
@@ -1780,21 +1780,21 @@ endline
 area clay
 endarea
 
-point 6396.0 -5116.0 water-flow -orientation 194.6 -subtype intermittent
+point 6396.0 -5116.0 water-flow -orientation 194.6 -subtype intermittent -scale xl
 
-point 6644.0 -4808.0 water-flow -orientation 223.3 -subtype intermittent
+point 6644.0 -4808.0 water-flow -orientation 223.3 -subtype intermittent -scale xl
 
-point 7248.0 -4896.0 water-flow -orientation 334.1 -subtype intermittent
+point 7248.0 -4896.0 water-flow -orientation 334.1 -subtype intermittent -scale xl
 
-point 7784.0 -5656.0 water-flow -orientation 314.7 -subtype intermittent
+point 7784.0 -5656.0 water-flow -orientation 314.7 -subtype intermittent -scale xl
 
-point 8596.0 -6476.0 water-flow -orientation 338.0 -subtype intermittent
+point 8596.0 -6476.0 water-flow -orientation 338.0 -subtype intermittent -scale xl
 
-point 8912.0 -7164.0 water-flow -orientation 301.6 -subtype intermittent
+point 8912.0 -7164.0 water-flow -orientation 301.6 -subtype intermittent -scale xl
 
-point 9752.0 -6748.0 water-flow -orientation 226.7 -subtype intermittent
+point 9752.0 -6748.0 water-flow -orientation 226.7 -subtype intermittent -scale xl
 
-point 10100.0 -6056.0 water-flow -orientation 203.8 -subtype intermittent
+point 10100.0 -6056.0 water-flow -orientation 203.8 -subtype intermittent -scale xl
 
 line ceiling-step -reverse on
   7036.0 -5296.0

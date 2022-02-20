@@ -37,7 +37,7 @@ line wall -subtype presumed
   4622.0 -3752.0
 endline
 
-point 4486.0 -3636.0 label -align center -text [TT - Grim but might go]
+point 4486.0 -3636.0 label -align center -text [TT - grim but might go] -scale l
 
 line wall -reverse on -subtype presumed
   4330.0 -3556.0

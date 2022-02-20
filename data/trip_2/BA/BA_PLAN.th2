@@ -48,7 +48,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 614.0 -178.0 label -align center -text [Sticky mud. Can see small room ahead] -scale xs
+point 614.0 -178.0 label -align center -text [sticky mud - can see small room ahead] -scale l
 
 point 430.0 -306.0 label -text TT -align center
 

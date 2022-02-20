@@ -550,7 +550,7 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 3656.0 -1576.0 label -text [Tight canyon lead]
+point 3656.0 -1576.0 label -text [tight canyon lead] -scale l
 
 line wall -subtype presumed
   3643.0 -1657.0
@@ -810,7 +810,7 @@ line wall -reverse on -subtype presumed
   smooth off
 endline
 
-point 4785.0 -408.0 label -text [Tight canyon lead]
+point 4785.0 -408.0 label -text [tight canyon lead] -scale l
 
 line wall -subtype presumed
   4762.0 -492.0

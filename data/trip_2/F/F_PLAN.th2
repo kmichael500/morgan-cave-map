@@ -64,7 +64,7 @@ point 1704.0 -242.0 stalactite
 
 point 1520.0 -256.0 stalactite
 
-point 1752.0 -130.0 label -text [Flowstone choke]
+point 1752.0 -130.0 label -text [flowstone choke] -scale l
 
 point 1672.0 -640.0 passage-height -value [.3 m]
 
@@ -74,7 +74,7 @@ point 1292.0 -738.0 paleo-material
 
 point 1216.0 -688.0 paleo-material
 
-point 860.0 -1260.0 label -text Fossils
+point 860.0 -1260.0 label -text fossils -scale l
 
 line border -id l17-670--1586 -close on -subtype invisible
   614.0 -1596.0
