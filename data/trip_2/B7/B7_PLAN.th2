@@ -68,7 +68,7 @@ point 2292.0 -1570.0 gradient -orientation 212.2
 
 point 1232.0 -1440.0 gradient -orientation 148.2
 
-point 1420.0 -1908.0 passage-height -value [4.5 ft]
+point 1420.0 -1908.0 passage-height -value [4.5 ft] -scale l
 
 point 1927.0 -1956.0 station -name B7.1 -subtype fixed
 

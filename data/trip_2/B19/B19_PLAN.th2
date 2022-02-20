@@ -485,13 +485,13 @@ endline
 line border -subtype invisible
 endline
 
-point 856.0 -3036.0 passage-height -value [210 in]
+point 856.0 -3036.0 passage-height -value [210 in] -scale l
 
-point 816.0 -3628.0 passage-height -value [29 in]
+point 816.0 -3628.0 passage-height -value [29 in] -scale l
 
-point 1082.0 -800.0 passage-height -value [2 ft]
+point 1082.0 -800.0 passage-height -value [2 ft] -scale l
 
-point 1132.0 -2000.0 passage-height -value [75 in]
+point 1132.0 -2000.0 passage-height -value [75 in] -scale l
 
 endscrap
 

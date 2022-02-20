@@ -110,7 +110,7 @@ line border -id l16-976--28520 -close on -subtype invisible
   580.0 -28636.0
 endline
 
-point 568.0 -27852.0 passage-height -value [1.35 ft]
+point 568.0 -27852.0 passage-height -value [1.35 ft] -scale l
 
 line rock-border -close on
   620.0 -28476.0

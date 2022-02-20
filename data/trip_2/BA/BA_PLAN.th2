@@ -52,9 +52,9 @@ point 614.0 -178.0 label -align center -text [sticky mud - can see small room ah
 
 point 430.0 -306.0 label -text TT -align center
 
-point 274.0 -464.0 passage-height -value [.6 ft]
+point 274.0 -464.0 passage-height -value [.6 ft] -scale l
 
-point 1028.0 -638.0 passage-height -value [2.5 ft]
+point 1028.0 -638.0 passage-height -value [2.5 ft] -scale l
 
 line ceiling-step -reverse on
   458.0 -424.0
@@ -148,9 +148,9 @@ point 4018.0 -3248.0 gradient -orientation 298.8 -scale xs
 
 point 3704.0 -3558.0 gradient -orientation 5.0 -scale xs
 
-point 3380.0 -2854.0 passage-height -value [3.5 ft]
+point 3380.0 -2854.0 passage-height -value [3.5 ft] -scale l
 
-point 4316.0 -3078.0 passage-height -value [4 ft]
+point 4316.0 -3078.0 passage-height -value [4 ft] -scale l
 
 line wall -reverse on
   3106.0 -2592.0

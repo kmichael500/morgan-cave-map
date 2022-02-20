@@ -56,7 +56,7 @@ line wall
   smooth off
 endline
 
-point 180.0 -1334.0 passage-height -value [.45 m]
+point 180.0 -1334.0 passage-height -value [.45 m] -scale l
 
 area debris
   l16-826--1761

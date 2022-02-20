@@ -120,29 +120,29 @@ line ceiling-step
   smooth off
 endline
 
-point 10242.0 -8296.0 passage-height -value [4 ft]
+point 10242.0 -8296.0 passage-height -value [4 ft] -scale l
 
-point 11116.0 -8300.0 passage-height -value [3 ft]
+point 11116.0 -8300.0 passage-height -value [3 ft] -scale l
 
-point 11050.0 -10434.0 passage-height -value [8 ft]
+point 11050.0 -10434.0 passage-height -value [8 ft] -scale l
 
-point 12297.0 -10363.0 passage-height -value [.8 m]
+point 12297.0 -10363.0 passage-height -value [.8 m] -scale l
 
-point 9966.0 -19706.0 passage-height -value [1 m]
+point 9966.0 -19706.0 passage-height -value [1 m] -scale l
 
-point 9888.0 -18616.0 passage-height -value [5 ft]
+point 9888.0 -18616.0 passage-height -value [5 ft] -scale l
 
-point 10354.0 -17718.0 passage-height -value [2 m]
+point 10354.0 -17718.0 passage-height -value [2 m] -scale l
 
-point 11305.0 -15873.0 passage-height -value [2 m]
+point 11305.0 -15873.0 passage-height -value [2 m] -scale l
 
-point 10702.0 -14264.0 passage-height -value [.7 m]
+point 10702.0 -14264.0 passage-height -value [.7 m] -scale l
 
-point 11432.0 -12086.0 passage-height -value [2 m]
+point 11432.0 -12086.0 passage-height -value [2 m] -scale l
 
-point 12553.0 -9680.0 passage-height -value [1.1 m]
+point 12553.0 -9680.0 passage-height -value [1.1 m] -scale l
 
-point 13197.0 -9137.0 passage-height -value [6 ft]
+point 13197.0 -9137.0 passage-height -value [6 ft] -scale l
 
 point 13405.0 -9593.0 station -name B1 -subtype fixed
 

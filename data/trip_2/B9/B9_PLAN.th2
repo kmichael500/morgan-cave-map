@@ -18,7 +18,7 @@ line rock-edge -close on
   1078.0 -2011.0 1058.0 -1991.0 1050.0 -1985.0
 endline
 
-point 483.0 -1616.0 passage-height -value [5 ft]
+point 483.0 -1616.0 passage-height -value [5 ft]  -scale l
 
 line rock-edge
   1002.0 -1995.0

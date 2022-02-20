@@ -1843,23 +1843,23 @@ line ceiling-step
   smooth off
 endline
 
-point 6660.0 -3488.0 passage-height -value [9 ft]
+point 6660.0 -3488.0 passage-height -value [9 ft] -scale l
 
-point 9544.0 -7596.0 passage-height -value [.9 m]
+point 9544.0 -7596.0 passage-height -value [.9 m] -scale l
 
-point 8776.0 -9808.0 passage-height -value [10 in]
+point 8776.0 -9808.0 passage-height -value [10 in] -scale l
 
-point 7280.0 -5728.0 passage-height -value [1.6 m]
+point 7280.0 -5728.0 passage-height -value [1.6 m] -scale l
 
-point 6140.0 -6408.0 passage-height -value [7 ft]
+point 6140.0 -6408.0 passage-height -value [7 ft] -scale l
 
-point 4728.0 -5916.0 passage-height -value [10 ft]
+point 4728.0 -5916.0 passage-height -value [10 ft] -scale l
 
-point 3088.0 -4104.0 passage-height -value [9 ft]
+point 3088.0 -4104.0 passage-height -value [9 ft] -scale l
 
-point 1644.0 -3000.0 passage-height -value [8 ft]
+point 1644.0 -3000.0 passage-height -value [8 ft] -scale l
 
-point 2820.0 -1340.0 passage-height -value [5.5 ft]
+point 2820.0 -1340.0 passage-height -value [5.5 ft] -scale l
 
 point 4296.0 -1936.0 section -scrap aSX1
 

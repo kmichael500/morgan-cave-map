@@ -603,9 +603,9 @@ line wall
   smooth off
 endline
 
-point 1296.0 -1476.0 height -value [8 ft]
+point 1296.0 -1476.0 height -value [8 ft] -scale l
 
-point 1202.0 -2066.0 passage-height -value [5 ft]
+point 1202.0 -2066.0 passage-height -value [5 ft] -scale l
 
 point 3833.0 -3989.0 station -name E7.3.1 -subtype fixed
 
@@ -617,15 +617,15 @@ line ceiling-step
   smooth off
 endline
 
-point 1414.0 -1123.0 passage-height -value [.3 m]
+point 1414.0 -1123.0 passage-height -value [.3 m] -scale l
 
-point 725.0 -3020.0 passage-height -value [4 ft]
+point 725.0 -3020.0 passage-height -value [4 ft] -scale l
 
-point 515.0 -3159.0 height -value [2 ft]
+point 515.0 -3159.0 height -value [2 ft] -scale l
 
-point 371.0 -3888.0 passage-height -value [1.8 ft]
+point 371.0 -3888.0 passage-height -value [1.8 ft] -scale l
 
-point 2726.0 -3746.0 passage-height -value [.6 m]
+point 2726.0 -3746.0 passage-height -value [.6 m] -scale l
 
 point 2186.0 -4628.0 station -subtype fixed
 
@@ -893,9 +893,9 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 2384.0 -2310.0 passage-height -value [87 in]
+point 2384.0 -2310.0 passage-height -value [87 in] -scale l
 
-point 2210.0 -2254.0 passage-height -value [8 in]
+point 2210.0 -2254.0 passage-height -value [8 in] -scale l
 
 point 2350.0 -2574.0 gradient -orientation 146.0
 
