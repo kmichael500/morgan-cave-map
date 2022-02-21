@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap BDDASP -scale [0 -20152.0 199.0 -20151.0 0.0 0 0 2 m]
+scrap BDDASP -scale [0 -20152.0 199.0 -20151.0 0.0 0 0 2 m] -author 2022 "Michael Ketzner"
 
 line rock-edge
   11200.0 -9956.0

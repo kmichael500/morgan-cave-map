@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap B21SP -projection plan -scale [130.0 -29792.0 607.0 -29797.0 0.0 0.0 2 0.0 m]
+scrap B21SP -projection plan -scale [130.0 -29792.0 607.0 -29797.0 0.0 0.0 2 0.0 m] -author 2022 "Michael Ketzner"
 
 point 1638.0 -26568.0 station -name B2.5 -subtype fixed
 

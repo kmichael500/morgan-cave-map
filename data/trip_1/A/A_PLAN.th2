@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap ASP -projection plan -scale [-4.0 -10424.0 1724.0 -8696.0 0 0 10 10 m]
+scrap ASP -projection plan -scale [-4.0 -10424.0 1724.0 -8696.0 0 0 10 10 m] -author 2022 "Michael Ketzner"
 
 line rock-border -close on
   3307.0 -1776.0

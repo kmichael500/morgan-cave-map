@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap CSP -scale [17.0 -5316.0 375.0 -5318.0 0.0 0.0 0 3 m]
+scrap CSP -scale [17.0 -5316.0 375.0 -5318.0 0.0 0.0 0 3 m] -author 2022 "Michael Ketzner"
 
 point 2860.0 -2933.0 station -name C6 -subtype fixed
 

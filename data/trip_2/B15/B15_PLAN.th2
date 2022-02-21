@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap B15SP -scale [298.0 -234.0 1003.0 -234.0 0.0 0.0 3 0.0 m]
+scrap B15SP -scale [298.0 -234.0 1003.0 -234.0 0.0 0.0 3 0.0 m] -author 2022 "Michael Ketzner"
 
 line wall -reverse on
   1459.0 -603.0

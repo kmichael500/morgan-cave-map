@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap ESP -projection plan -scale [30.0 -4927.0 507.0 -4928.0 0.0 0.0 3 0.0 m]
+scrap ESP -projection plan -scale [30.0 -4927.0 507.0 -4928.0 0.0 0.0 3 0.0 m] -author 2022 "Michael Ketzner"
 
 point 2138.0 -2556.0 label -text TT -align center
 
@@ -903,7 +903,7 @@ endscrap
 
 
 
-scrap E_UNDERSP -projection plan -scale [30.0 -4927.0 507.0 -4928.0 0.0 0.0 3 0.0 m]
+scrap E_UNDERSP -projection plan -scale [30.0 -4927.0 507.0 -4928.0 0.0 0.0 3 0.0 m] -author 2022 "Michael Ketzner"
 
 line ceiling-step
 endline

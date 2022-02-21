@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap BASP -projection plan -scale [1702.0 -90.0 2410.0 -90.0 0.0 0 3 0 m]
+scrap BASP -projection plan -scale [1702.0 -90.0 2410.0 -90.0 0.0 0 3 0 m] -author 2022 "Michael Ketzner"
 
 line wall
 endline
