@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -5442 5921 141.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -5442 5921 144.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} C_PLAN.jpg 0 {}
 
 
 
-scrap CSP -scale [17.0 -5316.0 375.0 -5318.0 0.0 0.0 0 3 m] -author 2022 "Michael Ketzner"
+scrap CSP -author 2022 "Michael Ketzner" -scale [17.0 -5316.0 375.0 -5318.0 0.0 0.0 0 3 m]
 
 point 2860.0 -2933.0 station -name C6 -subtype fixed
 
@@ -270,6 +270,8 @@ point 3661.0 -2059.0 gradient -orientation 25.6 -scale xs
 point 3505.0 -1968.0 gradient -orientation 25.6 -scale xs
 
 point 3355.0 -1681.0 gradient -orientation 142.1
+
+point 2428.0 -3740.0 label -text [Crawdad Lounge] -scale xl -align right
 
 line ceiling-step -reverse on
   4211.0 -1918.0
@@ -608,6 +610,7 @@ point 1451.0 -4385.0 section -scrap cSX4
 line section -reverse on -direction both
   1759.0 -4702.0
   1739.02 -4670.73 1592.54 -4562.71 1571.0 -4529.0
+  smooth off
 endline
 
 line wall

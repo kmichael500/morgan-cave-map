@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -20284 14790 141.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.0 -20284 14790 152.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B-D-DA_PLAN.jpg 0 {}
 
 
 
-scrap BDDASP -scale [0 -20152.0 199.0 -20151.0 0.0 0 0 2 m] -author 2022 "Michael Ketzner"
+scrap BDDASP -author 2022 "Michael Ketzner" -scale [0 -20152.0 199.0 -20151.0 0.0 0 0 2 m]
 
 line rock-edge
   11200.0 -9956.0
@@ -998,6 +998,8 @@ point 12509.0 -9745.0 station -name B4 -subtype fixed
 point 12342.0 -9308.0 station -name B3 -subtype fixed
 
 point 12650.0 -9270.0 station -name B2 -subtype fixed
+
+point 10768.0 -15368.0 label -text [Stream Junction] -scale xl
 
 line wall -reverse on
   13982.0 -10504.0

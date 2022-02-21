@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap B19SP -projection plan -scale [71.0 -4251.0 543.0 -4252.0 0.0 0.0 0 3 m] -author 2022 "Michael Ketzner"
+scrap B19SP -projection plan -author 2022 "Michael Ketzner" -scale [71.0 -4251.0 543.0 -4252.0 0.0 0.0 0 3 m]
 
 point 1367.0 -935.0 station -name B20.1 -subtype fixed
 
@@ -369,6 +369,10 @@ point 1016.0 -158.0 station -name B18 -subtype fixed
 area clay
   l47-977--1152
 endarea
+
+point 1024.0 -836.0 label -align left -scale xl -text [Low Hopes Crawl]
+
+point 226.0 -3128.0 label -text [Ducky Filter Room] -align left -scale xl
 
 line border -id l47-977--1152 -close on -subtype invisible
   1102.0 -939.0

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap ESP -projection plan -scale [30.0 -4927.0 507.0 -4928.0 0.0 0.0 3 0.0 m] -author 2022 "Michael Ketzner"
+scrap ESP -projection plan -author 2022 "Michael Ketzner" -scale [30.0 -4927.0 507.0 -4928.0 0.0 0.0 3 0.0 m]
 
 point 2138.0 -2556.0 label -text TT -align center
 
@@ -172,6 +172,8 @@ point 1254.0 -1892.0 rimstone-pool -orientation 310.3
 point 1211.0 -1739.0 rimstone-pool -orientation 310.3
 
 point 1159.0 -1811.0 rimstone-pool -orientation 310.3
+
+point 1820.0 -1810.0 label -text [Throne Room] -scale xl -align right
 
 line rock-edge
   1429.0 -2072.0
@@ -903,7 +905,7 @@ endscrap
 
 
 
-scrap E_UNDERSP -projection plan -scale [30.0 -4927.0 507.0 -4928.0 0.0 0.0 3 0.0 m] -author 2022 "Michael Ketzner"
+scrap E_UNDERSP -projection plan -author 2022 "Michael Ketzner" -scale [30.0 -4927.0 507.0 -4928.0 0.0 0.0 3 0.0 m]
 
 line ceiling-step
 endline

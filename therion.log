@@ -151,7 +151,7 @@ writing morgans.kml ... done
 writing morgans.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 18:59
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 19:20
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -186,8 +186,8 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [96] [97]
 [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] )
  
 Here is how much of MetaPost's memory you used:
- 45400 strings using 1006424 characters
- 4435984 bytes of node memory
+ 46045 strings using 1026426 characters
+ 4440736 bytes of node memory
  1585 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
 210 output files written: data.1 .. data.4015
@@ -197,7 +197,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -220,7 +220,7 @@ Here is how much of TeX's memory you used:
  13i,5n,9p,598b,79s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 738777 bytes).
+Output written on data.pdf (1 page, 741502 bytes).
 PDF statistics:
  596 PDF objects out of 1000 (max. 8388607)
  306 compressed objects within 4 object streams
@@ -232,7 +232,7 @@ PDF statistics:
 done
 writing morgans-debug.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 18:59
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 19:20
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -266,8 +266,8 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [97] [98]
 
  
 Here is how much of MetaPost's memory you used:
- 45296 strings using 1007006 characters
- 4518584 bytes of node memory
+ 45941 strings using 1026895 characters
+ 4523336 bytes of node memory
  1578 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f212 output files written: data.1 .. data.4013
 
@@ -276,7 +276,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,7 +299,7 @@ Here is how much of TeX's memory you used:
  12i,5n,9p,598b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 763639 bytes).
+Output written on data.pdf (1 page, 766402 bytes).
 PDF statistics:
  604 PDF objects out of 1000 (max. 8388607)
  310 compressed objects within 4 object streams
@@ -329,7 +329,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  AVERAGE  MAXIMAL  SCRAP
    6.65%   93.66%  B15SP@B15.morgan
    0.63%   85.35%  BDDASP@BDDA.morgan
-   1.88%   82.09%  B19SP@B19.morgan
+   1.89%   82.09%  B19SP@B19.morgan
    0.35%   80.56%  CSP@C.morgan
    8.27%   68.81%  B21SP@B21.morgan
    0.73%   54.51%  ESP@E.morgan
@@ -337,7 +337,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    1.25%   36.59%  B12SP@B12.morgan
    3.80%   34.26%  B9SP@B9.morgan
    1.06%   30.50%  BASP@BA.morgan
-   0.39%   27.47%  ASP@A.morgan
+   0.38%   27.47%  ASP@A.morgan
    2.37%   25.44%  FSP@F.morgan
    1.82%   20.30%  B7SP@B7.morgan
    1.05%    8.34%  E_UNDERSP@E.morgan
