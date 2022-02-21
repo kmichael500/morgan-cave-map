@@ -797,11 +797,11 @@ point 256.0 -4316.0 station -name B12 -subtype fixed
 
 point 5117.0 -498.0 passage-height -value [1.5 m] -scale l
 
-point 4997.0 -2949.0 height -value [3 ft] -scale l
+point 5019.0 -2973.0 height -value [3 ft] -scale l
 
-point 4899.0 -3176.0 height -value [3 ft] -scale l
+point 4935.0 -3208.0 height -value [3 ft] -scale l
 
-point 4419.0 -2809.0 passage-height -value [1 ft] -scale l
+point 4397.0 -2835.0 passage-height -value [1 ft] -scale l
 
 point 4553.0 -1846.0 passage-height -value [3 ft] -scale l
 

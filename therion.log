@@ -151,7 +151,7 @@ writing output/morgans_plan.kml ... done
 writing output/morgan-debug.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 20:41
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 20:52
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -187,7 +187,7 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [109] [110]
 [225] [226] )
  
 Here is how much of MetaPost's memory you used:
- 60777 strings using 1491326 characters
+ 60777 strings using 1491291 characters
  4638248 bytes of node memory
  1579 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
@@ -198,7 +198,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -221,7 +221,7 @@ Here is how much of TeX's memory you used:
  12i,5n,9p,598b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 1078971 bytes).
+Output written on data.pdf (1 page, 1078974 bytes).
 PDF statistics:
  658 PDF objects out of 1000 (max. 8388607)
  337 compressed objects within 4 object streams
@@ -233,7 +233,7 @@ PDF statistics:
 done
 writing output/MU85 Morgan Cave Map.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 20:41
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 20:52
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -268,7 +268,7 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [96] [97]
 [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] )
  
 Here is how much of MetaPost's memory you used:
- 45996 strings using 1026681 characters
+ 45996 strings using 1026552 characters
  4439968 bytes of node memory
  1585 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
@@ -279,7 +279,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -302,7 +302,7 @@ Here is how much of TeX's memory you used:
  13i,5n,9p,598b,79s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 741658 bytes).
+Output written on data.pdf (1 page, 741690 bytes).
 PDF statistics:
  596 PDF objects out of 1000 (max. 8388607)
  306 compressed objects within 4 object streams
@@ -314,7 +314,7 @@ PDF statistics:
 done
 writing output/MU85 Morgan Cave Map.svg ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 20:41
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 20:52
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -349,7 +349,7 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [96] [97]
 [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] )
  
 Here is how much of MetaPost's memory you used:
- 45996 strings using 1026681 characters
+ 45996 strings using 1026552 characters
  4439968 bytes of node memory
  1585 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
@@ -385,7 +385,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.73%   54.51%  ESP@E.morgan
    4.09%   38.88%  B6SP@B6.morgan
    1.27%   36.54%  B12SP@B12.morgan
-   3.85%   34.28%  B9SP@B9.morgan
+   3.78%   34.28%  B9SP@B9.morgan
    1.05%   30.56%  BASP@BA.morgan
    0.38%   27.55%  ASP@A.morgan
    2.36%   25.38%  FSP@F.morgan
