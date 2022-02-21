@@ -37,7 +37,7 @@ endcode
 # used to be shifted ((i,j) randomized 1.3u);
 code metapost
 def a_clay (expr p) =
-  density:=2.75;
+  density:=2.5;
   random:=1.3;
   T:=identity;
   pickup PenC;
