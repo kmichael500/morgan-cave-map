@@ -151,7 +151,7 @@ writing output/morgans_plan.kml ... done
 writing output/morgan-debug.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 22:23
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 22:33
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -198,7 +198,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -233,7 +233,7 @@ PDF statistics:
 done
 writing output/MU85 Morgan Cave Map.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 22:23
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 22:33
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -269,7 +269,7 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [96] [97]
  
 Here is how much of MetaPost's memory you used:
  45996 strings using 1026552 characters
- 4253344 bytes of node memory
+ 4283840 bytes of node memory
  1588 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
 210 output files written: data.1 .. data.4015
@@ -279,7 +279,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  20 FEB 2022 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,14 +295,14 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  502 strings out of 497099
  5113 string characters out of 6206936
- 171657 words of memory out of 5000000
+ 171327 words of memory out of 5000000
  1731 multiletter control sequences out of 15000+600000
  15760 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  13i,5n,9p,598b,79s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 715731 bytes).
+Output written on data.pdf (1 page, 714819 bytes).
 PDF statistics:
  596 PDF objects out of 1000 (max. 8388607)
  306 compressed objects within 4 object streams
@@ -314,7 +314,7 @@ PDF statistics:
 done
 writing output/MU85 Morgan Cave Map.svg ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 22:23
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  20 FEB 2022 22:33
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -350,7 +350,7 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [414])] [96] [97]
  
 Here is how much of MetaPost's memory you used:
  45996 strings using 1026552 characters
- 4253344 bytes of node memory
+ 4283840 bytes of node memory
  1588 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
 210 output files written: data.1 .. data.4015
