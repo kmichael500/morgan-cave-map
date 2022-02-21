@@ -19,6 +19,48 @@ symbol-hide group centerline
 
 
 code metapost
+
+def p_blocks_UIS (expr pos,theta,sc,al)=
+symbolsize:=1.0u; %Factor*u; Factor=size of the blocks
+U:=(.5u,.5u);
+T:=identity aligned al rotated theta scaled sc shifted pos;
+pickup PenC;
+thdraw (.0symbolsize,.0symbolsize)--(1.0symbolsize,-.5symbolsize)--(0.0symbolsize,-1.5symbolsize)--(-1.0symbolsize,-1.0symbolsize)--cycle;
+thdraw (.5symbolsize,-.25symbolsize)--(1.0symbolsize,.5symbolsize)--(0.0symbolsize,1.5symbolsize)--(-0.5symbolsize,.5symbolsize);
+thdraw (.0symbolsize,.0symbolsize)--(.0symbolsize,.5symbolsize)--(-1.5symbolsize,.5symbolsize)--(-1.5symbolsize,-0.5symbolsize)--(-0.5symbolsize,-0.5symbolsize);
+enddef;
+endcode
+
+# Adjust density of Clay
+# used to be shifted ((i,j) randomized 1.3u);
+code metapost
+def a_clay (expr p) =
+  scale:=1;
+  density:=35;
+  T:=identity;
+  pickup PenC;
+  path q, qq; q = bbox p;
+  picture tmp_pic;
+  tmp_pic := image(
+    for i = xpart llcorner q step 1.5u until xpart urcorner q:
+      for j = ypart llcorner q step 1.5u until ypart urcorner q:
+        qq := ((-.25u*scale,0){up}..origin{down}..{up}(0.25u*scale,0)) randomized (u/15)
+             shifted ((i,j) randomized 40.3u);
+	if xpart (p intersectiontimes qq) < 0:
+	  thdraw qq;
+	fi;
+      endfor;
+    endfor;
+  );
+  clip tmp_pic to p;
+  drawoptions();
+  draw tmp_pic;
+enddef;
+
+endcode
+
+
+code metapost
   def s_northarrow (expr rot) =
     T:=identity;
     picture tmp_pic;
