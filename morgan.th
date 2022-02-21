@@ -22,6 +22,9 @@ survey morgan \
   centreline
 
     station ent "main ent." entrance
+    cs long-lat
+    fix ent -87:04:23.518 35:39:5.5 200
+
     equate ent A1@A
     
     #BDDA
