@@ -1,6 +1,6 @@
 layout local
 size 24 36 in # Page size
-overlap 1 in # Border around page
+overlap 2 in # Border around page
 legend on
 scale 1 100
 north grid
@@ -11,7 +11,7 @@ scale-bar  75 ft
 
 # Pdf Options
 doc-author "Michael Ketzner"
-doc-title "Morgan Cave Map"
+doc-title "MU85 Morgan Cave Map"
 
 # Hide Stations/Lineplot
 symbol-hide point station

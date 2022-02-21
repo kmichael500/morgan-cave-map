@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -20284 14790 152.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -136.0 -20284 14790 144.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B-D-DA_PLAN.jpg 0 {}
 
 
@@ -1294,7 +1294,7 @@ line ceiling-step
   smooth off
 endline
 
-point 9798.0 -18518.0 gradient -scale xs
+point 9798.0 -18518.0 gradient -orientation 290.8 -scale xs
 
 point 9954.0 -18290.0 gradient -orientation 302.4 -scale xs
 
@@ -1381,8 +1381,6 @@ point 10086.0 -19775.0 water-flow -orientation 161.2
 point 10208.0 -19343.0 water-flow -orientation 130.8
 
 point 9711.0 -18545.0 water-flow -orientation 172.9
-
-point 9717.0 -18500.0 water-flow -orientation 198.4
 
 point 10816.0 -15818.0 water-flow -orientation 161.9
 

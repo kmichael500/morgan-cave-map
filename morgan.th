@@ -1,6 +1,6 @@
 encoding  utf-8
 survey morgan \
-  -title "Morgan Cave" \
+  -title "MU85 Morgan Cave" \
 
   #trip 2
   input data/trip_1/A/A.th
@@ -23,7 +23,7 @@ survey morgan \
 
     station ent "main ent." entrance
     cs long-lat
-    fix ent -87:04:23.518 35:39:5.5 200
+    fix ent -87:04:23.5092 35:39:5.5584 200
 
     equate ent A1@A
     
