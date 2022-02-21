@@ -3,6 +3,12 @@ input layout.th
 select morgan
 source morgan.th
 
+text en "area clay" ""
+text en "line wall:clay" ""
+text en "line rock-border" ""
+
+text en "point paleo-material" "bones"
+
 layout debug
   legend on
   scale 1 100
@@ -13,7 +19,7 @@ endlayout
 
 #export
 export model -fmt survex -o output/morgans.3d -enable walls
-export model -o output/morgans.lox -enable walls
+export model -o ocutput/morgans.lox -enable walls
 
 export map -proj plan -fmt kml -o output/morgans_plan.kml
 

@@ -17,6 +17,8 @@ doc-title "MU85 Morgan Cave Map"
 symbol-hide point station
 symbol-hide group centerline
 
+# Hide Symbols from legend
+
 
 code metapost
 
@@ -34,19 +36,8 @@ endcode
 # Adjust density of Clay
 # used to be shifted ((i,j) randomized 1.3u);
 code metapost
-  # beginpattern(pattern_water_MY);
-  #   draw origin--10up withpen pensquare scaled (0.02u);
-  #   patternxstep(.18u);
-  #   patterntransform(identity rotated 45);
-  # endpattern;
-  
-  # def a_water (expr Path) =
-  #    T:=identity;
-  #    thclean Path;
-  #    thfill Path withpattern pattern_water_MY;
-  # enddef;
 def a_clay (expr p) =
-  density:=3;
+  density:=2.75;
   random:=1.3;
   T:=identity;
   pickup PenC;
@@ -60,7 +51,7 @@ def a_clay (expr p) =
         # qq := ((-.25u,0){up}..origin{down}..{up}(0.25u,0)) randomized (uu/15) shifted ((i,j) randomized 1.3uu);
 
         if xpart (p intersectiontimes qq) < 0:
-          thdraw qq;
+          thdraw qq withcolor (129/255, 63/255, 11/255);
         fi;
       endfor;
     endfor;
@@ -69,7 +60,37 @@ def a_clay (expr p) =
   draw tmp_pic;
 enddef;
 
+# clay point
+def p_clay (expr pos,theta,sc,al) =
+    U:=(.3u,.3u);
+    T:=identity aligned al rotated theta scaled sc shifted pos;
+    pickup PenC;
+    thdraw (-.3u,0){up}..origin{down}..{up}(0.3u,0) withcolor (129/255, 63/255, 11/255);
+enddef;
+
+# clay wall
+def l_wall_clay (expr P) =
+  T:=identity;
+  cas := 0;
+  dlzka := arclength P;
+  mojkrok:=adjust_step(dlzka, .5u);
+  pickup PenC;
+  q := (-0.15u,0){up}..{down}origin..{up}(0.15u,0);
+  forever:
+    t := arctime (cas + mojkrok/2) of P;
+    thdraw q shifted (point t of P + .25u * unitvector(thdir(P,t) rotated -90)) withcolor (129/255, 63/255, 11/255);
+    cas := cas + mojkrok;
+    exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
+  endfor;
+  pickup PenA;
+  thdraw P;
+enddef;
+
 endcode
+
+# symbol-colour area clay [.5, 0.247, 0.043]  #ineffective?
+# symbol-colour point clay [50, 25., 4]  #ineffective?
+
 
 
 code metapost

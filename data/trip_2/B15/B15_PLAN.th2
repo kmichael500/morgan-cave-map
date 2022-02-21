@@ -1,11 +1,36 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -2313 1817 141.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -2313 1817 144.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B15_PLAN.jpg 0 {}
 
 
 
-scrap B15SP -scale [298.0 -234.0 1003.0 -234.0 0.0 0.0 3 0.0 m] -author 2022 "Michael Ketzner"
+scrap B15SP -author 2022 "Michael Ketzner" -scale [298.0 -234.0 1003.0 -234.0 0.0 0.0 3 0.0 m]
+
+area clay
+  l20-938--370
+endarea
+
+line border -id l20-938--370 -close on -reverse on -subtype invisible
+  1336.0 -1018.0
+  1208.0 -1452.0
+  1038.0 -1802.0
+  1038.0 -1802.0 986.0 -1946.0 994.0 -1940.0
+  1002.0 -1934.0 712.0 -2120.0 698.0 -2120.0
+  684.0 -2120.0 432.0 -2104.0 410.0 -2090.0
+  388.0 -2076.0 56.0 -1856.0 52.0 -1846.0
+  48.0 -1836.0 56.0 -1506.0 56.0 -1506.0
+  smooth off
+  332.0 -1072.0
+  620.0 -862.0
+  1022.0 -240.0
+  1022.0 -240.0 1200.0 -128.0 1208.0 -128.0
+  1216.0 -128.0 1564.0 -396.0 1564.0 -396.0
+  smooth off
+  1564.0 -396.0 1508.0 -978.0 1506.0 -972.0
+  1504.0 -966.0 1336.0 -1018.0 1336.0 -1018.0
+  smooth off
+endline
 
 line wall -reverse on
   1459.0 -603.0

@@ -1,11 +1,33 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -2514 2785 144.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -2514 2785 152.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} B7_PLAN.jpg 0 {}
 
 
 
 scrap B7SP -author 2022 "Michael Ketzner" -scale [238.0 -1949.0 951.0 -1948.0 0.0 0.0 3 0.0 m]
+
+area clay
+  l16-868--2096
+endarea
+
+line border -id l16-868--2096 -close on -reverse on -subtype invisible
+  584.0 -1704.0
+  236.0 -1220.0
+  216.0 -616.0
+  216.0 -616.0 296.0 -252.0 312.0 -244.0
+  328.0 -236.0 708.0 -176.0 708.0 -176.0
+  smooth off
+  1144.0 -660.0
+  2020.0 -1088.0
+  2444.0 -1140.0
+  2620.0 -1508.0
+  2568.0 -2080.0
+  2568.0 -2080.0 1908.0 -2252.0 1852.0 -2256.0
+  1796.0 -2260.0 968.0 -2232.0 968.0 -2232.0
+  smooth off
+  584.0 -1704.0
+endline
 
 point 352.0 -944.0 gradient -orientation 287.4 -scale xs
 
@@ -73,6 +95,9 @@ point 1332.0 -2010.0 passage-height -value [4.5 ft] -scale l
 point 1927.0 -1956.0 station -name B7.1 -subtype fixed
 
 point 238.0 -390.0 station -name B7 -subtype fixed
+
+line border -subtype invisible
+endline
 
 endscrap
 
