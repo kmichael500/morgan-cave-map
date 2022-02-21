@@ -47,6 +47,7 @@ code metapost
   # enddef;
 def a_clay (expr p) =
   density:=4;
+  random:=1;
   T:=identity;
   pickup PenC;
   path q, qq; q = bbox p;
@@ -55,8 +56,7 @@ def a_clay (expr p) =
   tmp_pic := image(
     for i = xpart llcorner q step density*uu until xpart urcorner q:
       for j = ypart llcorner q step density*uu until ypart urcorner q:
-        qq := ((-.25uu,0){up}..origin{down}..{up}(0.25uu,0)) randomized (uu/15)
-             shifted ((i,j) randomized 1.3uu);
+        qq := ((-.25u,0){up}..origin{down}..{up}(0.25u,0)) randomized (uu/15) shifted ((i,j) randomized 1.3uu);
         if xpart (p intersectiontimes qq) < 0:
           thdraw qq;
         fi;
