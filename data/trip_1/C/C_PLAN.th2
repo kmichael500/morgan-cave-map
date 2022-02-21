@@ -678,6 +678,8 @@ line section -reverse on -direction both
   smooth off
 endline
 
+point 908.0 -4736.0 clay
+
 line wall
   206.0 -4411.0
   224.0 -4422.0 239.0 -4438.0 245.0 -4451.0

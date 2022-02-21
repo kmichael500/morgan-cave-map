@@ -152,7 +152,7 @@ writing output/morgans_plan.kml ... done
 writing output/morgan-debug.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  21 FEB 2022 00:04
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  21 FEB 2022 00:23
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -164,18 +164,18 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
 [33]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])] [34] [35]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [34] [35]
 [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
 [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
 [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
 [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
 [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])] [109] [110]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [109] [110]
 [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123]
 [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136]
 [137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
@@ -188,8 +188,8 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])] [109] [110]
 [225] )
  
 Here is how much of MetaPost's memory you used:
- 60822 strings using 1489393 characters
- 16410752 bytes of node memory
+ 60934 strings using 1492588 characters
+ 16411616 bytes of node memory
  1579 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
 238 output files written: data.1 .. data.4013
@@ -199,7 +199,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  21 FEB 2022 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  21 FEB 2022 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,14 +215,14 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  531 strings out of 497099
  5430 string characters out of 6206936
- 1081367 words of memory out of 5000000
+ 1082777 words of memory out of 5000000
  1760 multiletter control sequences out of 15000+600000
  16065 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  12i,5n,9p,598b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 2548297 bytes).
+Output written on data.pdf (1 page, 2549418 bytes).
 PDF statistics:
  656 PDF objects out of 1000 (max. 8388607)
  336 compressed objects within 4 object streams
@@ -234,7 +234,7 @@ PDF statistics:
 done
 writing output/MU85 Morgan Cave Map.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  21 FEB 2022 00:04
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  21 FEB 2022 00:23
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -246,18 +246,18 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
 [30]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])] [31] [32]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [31] [32]
 [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
 [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62]
 [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
 [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92]
 [93] [94] [95] [96]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])] [97] [98]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [97] [98]
 [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
 [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]
 [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
@@ -269,8 +269,8 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])] [97] [98]
 [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] )
  
 Here is how much of MetaPost's memory you used:
- 46056 strings using 1027182 characters
- 6610920 bytes of node memory
+ 46150 strings using 1030357 characters
+ 6611784 bytes of node memory
  1588 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
 210 output files written: data.1 .. data.4015
@@ -280,7 +280,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  21 FEB 2022 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  21 FEB 2022 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,7 +303,7 @@ Here is how much of TeX's memory you used:
  13i,5n,9p,598b,79s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 875269 bytes).
+Output written on data.pdf (1 page, 876002 bytes).
 PDF statistics:
  596 PDF objects out of 1000 (max. 8388607)
  306 compressed objects within 4 object streams
@@ -315,7 +315,7 @@ PDF statistics:
 done
 writing output/MU85 Morgan Cave Map.svg ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  21 FEB 2022 00:04
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  21 FEB 2022 00:23
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -327,18 +327,18 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
 [30]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])] [31] [32]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [31] [32]
 [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
 [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62]
 [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
 [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92]
 [93] [94] [95] [96]
 [Error: area borders l81-12132--10436 and l82-13328--9208 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])]
 [Error: area borders l82-13328--9208 and l81-12132--10436 don't intersect in sc
-rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])] [97] [98]
+rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [97] [98]
 [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
 [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]
 [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
@@ -350,8 +350,8 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [485])] [97] [98]
 [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] )
  
 Here is how much of MetaPost's memory you used:
- 46056 strings using 1027182 characters
- 6610920 bytes of node memory
+ 46150 strings using 1030357 characters
+ 6611784 bytes of node memory
  1588 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
 210 output files written: data.1 .. data.4015
@@ -362,7 +362,7 @@ converting scraps* ... done
 making svg map ... done
 done
 writing xtherion file ... done
-compilation time: 12 sec
+compilation time: 10 sec
 
 
 ######################### loop errors ##########################
@@ -379,7 +379,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
    6.30%   93.67%  B15SP@B15.morgan
-   0.61%   85.42%  BDDASP@BDDA.morgan
+   0.60%   85.42%  BDDASP@BDDA.morgan
    1.89%   81.88%  B19SP@B19.morgan
    0.35%   80.77%  CSP@C.morgan
    7.06%   68.85%  B21SP@B21.morgan

@@ -2045,7 +2045,7 @@ endscrap
 
 
 
-scrap aSX1 -projection none -flip horizontal -scale [2964.0 -3030.0 3530.0 -2830.0 0 0 4.5 0 m]
+scrap aSX1 -projection none -flip horizontal -scale [2964.0 -3030.0 3550.0 -2898.0 0 0 4.5 0 m]
 
 line rock-border -close off -reverse on
   3224.0 -2500.0
