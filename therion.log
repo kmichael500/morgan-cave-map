@@ -3,12 +3,12 @@ initialization file: /etc/therion.ini
 reading ... done
 checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
 checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... NOT INSTALLED
-configuration file: thconfig.thcfg
+configuration file: thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM16
-meridian convergence (deg): 0.0429
+meridian convergence (deg): 0.0432
 geomag declinations (deg):
 scanning centreline tree ... done
 searching for centerline loops ... done
@@ -27,7 +27,7 @@ processing survey data ...
  9> Total vertical length of survey shots = 1002.18m
 10> Vertical range = 10.12m (from 461 at 201.92m to 1668 at 191.80m)
 11> North-South range = 152.81m (from 1861 at 3945336.82m to 1712 at 3945184.01m)
-12> East-West range = 94.92m (from 362 at 493412.71m to 452 at 493317.80m)
+12> East-West range = 94.91m (from 362 at 493412.71m to 452 at 493317.80m)
 13> 2231 1-nodes.
 14>    7 2-nodes.
 15>    5 3-nodes.
@@ -152,7 +152,7 @@ writing output/morgans_plan.kml ... done
 writing output/morgan-debug.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  6 MAY 2022 14:34
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  6 MAY 2022 15:14
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -188,7 +188,7 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [109] [110]
 [225] )
  
 Here is how much of MetaPost's memory you used:
- 60804 strings using 1488671 characters
+ 60779 strings using 1487421 characters
  16410176 bytes of node memory
  1579 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
@@ -199,7 +199,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  6 MAY 2022 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  6 MAY 2022 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -222,7 +222,7 @@ Here is how much of TeX's memory you used:
  12i,5n,9p,598b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 2548596 bytes).
+Output written on data.pdf (1 page, 2548183 bytes).
 PDF statistics:
  656 PDF objects out of 1000 (max. 8388607)
  336 compressed objects within 4 object streams
@@ -234,7 +234,7 @@ PDF statistics:
 done
 writing output/MU85 Morgan Cave Map.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  6 MAY 2022 14:34
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  6 MAY 2022 15:14
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -269,8 +269,8 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [97] [98]
 [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] )
  
 Here is how much of MetaPost's memory you used:
- 46016 strings using 1025517 characters
- 7069032 bytes of node memory
+ 46010 strings using 1025432 characters
+ 7085160 bytes of node memory
  1588 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
 210 output files written: data.1 .. data.4015
@@ -280,7 +280,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  6 MAY 2022 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  6 MAY 2022 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -290,33 +290,32 @@ entering extended mode
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex
 Normal \count register pool exhausted, switching to extended pool.)
-(./th_pagedef.tex (./th_legend.tex) </home/michael/Documents/repos/morgan-cave-
-map/./overlay.jpeg>) (./th_pages.tex)
+(./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 503 strings out of 497099
- 5125 string characters out of 6206936
- 353172 words of memory out of 5000000
- 1732 multiletter control sequences out of 15000+600000
+ 502 strings out of 497099
+ 5119 string characters out of 6206936
+ 353508 words of memory out of 5000000
+ 1731 multiletter control sequences out of 15000+600000
  15760 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  13i,5n,9p,598b,79s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 1043253 bytes).
+Output written on data.pdf (1 page, 897536 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
+ 596 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 1758 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1747 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing output/MU85 Morgan Cave Map.png ...
+writing output/MU85 Morgan Cave Map Lidar.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  6 MAY 2022 14:34
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  6 MAY 2022 15:14
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -351,8 +350,8 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [97] [98]
 [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] )
  
 Here is how much of MetaPost's memory you used:
- 46016 strings using 1025517 characters
- 7069032 bytes of node memory
+ 46010 strings using 1025432 characters
+ 7085160 bytes of node memory
  1588 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
 210 output files written: data.1 .. data.4015
@@ -362,7 +361,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  6 MAY 2022 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2022.2.7)  6 MAY 2022 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,20 +372,20 @@ entering extended mode
 (./th_formdef.tex
 Normal \count register pool exhausted, switching to extended pool.)
 (./th_pagedef.tex (./th_legend.tex) </home/michael/Documents/repos/morgan-cave-
-map/./overlay.jpeg>) (./th_pages.tex)
+map/./lidar-overlay.jpeg>) (./th_pages.tex)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
  503 strings out of 497099
  5125 string characters out of 6206936
- 353172 words of memory out of 5000000
+ 353520 words of memory out of 5000000
  1732 multiletter control sequences out of 15000+600000
  15760 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  13i,5n,9p,598b,79s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 1043253 bytes).
+Output written on data.pdf (1 page, 1100048 bytes).
 PDF statistics:
  599 PDF objects out of 1000 (max. 8388607)
  307 compressed objects within 4 object streams
@@ -398,7 +397,7 @@ PDF statistics:
 done
 writing output/MU85 Morgan Cave Map.svg ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  6 MAY 2022 14:35
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  6 MAY 2022 15:15
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -433,8 +432,8 @@ rap BDDASP@BDDA.morgan (file data/trip_1/BDDA/BDDA_PLAN.th2 [495])] [97] [98]
 [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] )
  
 Here is how much of MetaPost's memory you used:
- 46016 strings using 1025517 characters
- 7069032 bytes of node memory
+ 46010 strings using 1025432 characters
+ 7085160 bytes of node memory
  1588 symbolic tokens
  11i,82n,17p,456b,5f stack positions out of 16i,98n,21p,487b,6f
 210 output files written: data.1 .. data.4015
@@ -462,15 +461,15 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
    6.30%   93.67%  B15SP@B15.morgan
-   0.60%   85.43%  BDDASP@BDDA.morgan
-   1.89%   81.88%  B19SP@B19.morgan
+   0.61%   85.43%  BDDASP@BDDA.morgan
+   1.89%   81.64%  B19SP@B19.morgan
    0.35%   80.85%  CSP@C.morgan
    7.06%   68.85%  B21SP@B21.morgan
    0.73%   54.51%  ESP@E.morgan
    3.67%   38.88%  B6SP@B6.morgan
    1.58%   36.57%  B12SP@B12.morgan
-   3.21%   34.28%  B9SP@B9.morgan
-   0.94%   30.56%  BASP@BA.morgan
+   3.20%   34.25%  B9SP@B9.morgan
+   0.94%   30.50%  BASP@BA.morgan
    0.37%   27.55%  ASP@A.morgan
    2.33%   25.38%  FSP@F.morgan
    1.88%   20.30%  B7SP@B7.morgan

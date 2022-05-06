@@ -66,19 +66,18 @@ survey morgan \
     equate B10@BA B10@BDDA
 
   endcentreline
-  # surface # declaration of the height model
-  #   cs long-lat
-  #   grid -9693151.5626 4252569.2653 30 30 267 267 -9692747.8068 4253017.1047 # grid x_minimum y_minimum x_resolution y_resolution n_columns n_rows
-  #   #bitmap "file name" [ x y X Y xx yy XX YY] # small letters in picture coordinates (0 0 is lower left and capital letters in real coordinates (X Y)
-  #   bitmap ./overlay.jpeg [0 0 -9693151.5626 4252569 1995 1995 -9692747.8068 4253017.1047]
-  # endsurface
 
+  # surface overlay
+  # https://elevation.nationalmap.gov/arcgis/services/3DEPElevation/ImageServer/WMSServer?&service=WMS&request=GetMap&layers=3DEPElevation%3AHillshade%20Gray&styles=&format=image%2Fjpeg&transparent=false&version=1.1.1&srs=EPSG%3A4326&width=1995&height=1995&bbox=-87.076735,35.648108,-87.070041,35.654943&center=35.651638,-87.073249
+  # http://bboxfinder.com/#35.648108,-87.076735,35.654943,-87.070041
+  # https://therion.speleo.sk/wiki/ifl#surface_texture
   surface # declaration of the height model
    cs long-lat
-   grid -87.075062 35.650008 30 30 267 267 -87.071435 35.653277 # grid x_minimum y_minimum x_resolution y_resolution n_columns n_rows
+   grid -87.076735 35.648108 30 30 267 267 -87.070041 35.654943 # grid x_minimum y_minimum x_resolution y_resolution n_columns n_rows
    #bitmap "file name" [ x y X Y xx yy XX YY] # small letters in picture coordinates (0 0 is lower left and capital letters in real coordinates (X Y)
-   bitmap ./overlay.jpeg [0 0 -87.075062 35.650008 1995 1995 -87.071435 35.653277]
+   bitmap ./lidar-overlay.jpeg [0 0 -87.076735 35.648108 1995 1995 -87.070041 35.654943]
   endsurface
+
   map morgansMP
     ASP@A
     BDDASP@BDDA

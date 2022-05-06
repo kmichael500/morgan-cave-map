@@ -1,8 +1,9 @@
-layout local
+layout lidar-local
 
-#no lidar
-size 24 36 in # Page size
-overlap 2 in # Border around page
+# for lidary overlay
+surface bottom #displays surface
+size 30 30 in # Page size
+overlap 40 in # Border around page
 
 
 legend on
