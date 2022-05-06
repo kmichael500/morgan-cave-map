@@ -52,9 +52,9 @@ endline
 
 point 614.0 -178.0 label -align center -text [sticky mud - can see small room ahead] -scale l
 
-point 430.0 -306.0 label -text TT -align center
+point 430.0 -306.0 label -align center -text [TT - 7 in]
 
-point 274.0 -464.0 passage-height -value [.6 ft] -scale l
+point 274.0 -464.0 passage-height -value [.6 ft] -scale l -visibility off
 
 point 1230.0 -570.0 passage-height -value [2.5 ft] -scale l
 

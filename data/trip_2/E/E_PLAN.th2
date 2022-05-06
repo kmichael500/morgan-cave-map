@@ -938,9 +938,11 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 2384.0 -2310.0 passage-height -value [87 in] -scale l
+point 2448.0 -2454.0 passage-height -value [87 in] -scale l
 
-point 2210.0 -2254.0 passage-height -value [8 in] -scale l
+point 2200.0 -2282.0 label -align top-right -text [8 in mud squeeze]
+
+point 2210.0 -2254.0 passage-height -value [8 in] -scale l -visibility off
 
 point 2350.0 -2574.0 gradient -orientation 146.0
 
