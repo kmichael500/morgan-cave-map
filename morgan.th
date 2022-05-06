@@ -66,6 +66,19 @@ survey morgan \
     equate B10@BA B10@BDDA
 
   endcentreline
+  # surface # declaration of the height model
+  #   cs long-lat
+  #   grid -9693151.5626 4252569.2653 30 30 267 267 -9692747.8068 4253017.1047 # grid x_minimum y_minimum x_resolution y_resolution n_columns n_rows
+  #   #bitmap "file name" [ x y X Y xx yy XX YY] # small letters in picture coordinates (0 0 is lower left and capital letters in real coordinates (X Y)
+  #   bitmap ./overlay.jpeg [0 0 -9693151.5626 4252569 1995 1995 -9692747.8068 4253017.1047]
+  # endsurface
+
+  surface # declaration of the height model
+   cs long-lat
+   grid -87.075062 35.650008 30 30 267 267 -87.071435 35.653277 # grid x_minimum y_minimum x_resolution y_resolution n_columns n_rows
+   #bitmap "file name" [ x y X Y xx yy XX YY] # small letters in picture coordinates (0 0 is lower left and capital letters in real coordinates (X Y)
+   bitmap ./overlay.jpeg [0 0 -87.075062 35.650008 1995 1995 -87.071435 35.653277]
+  endsurface
   map morgansMP
     ASP@A
     BDDASP@BDDA

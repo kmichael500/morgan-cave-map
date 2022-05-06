@@ -1,4 +1,5 @@
 layout local
+surface bottom
 size 24 36 in # Page size
 overlap 2 in # Border around page
 legend on
