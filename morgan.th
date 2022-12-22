@@ -1,135 +1,135 @@
 encoding  utf-8
 survey morgan \
-  -title "MU85 Morgan FUCK Cave" \
-
-  #trip 2
-  input data/trip_1/A/A.th
-  input data/trip_1/BDDA/BDDA.th
-  input data/trip_1/C/C.th
-
-  #trip 2
-  input data/trip_2/B19/B19.th
-  input data/trip_2/E/E.th
-  input data/trip_2/F/F.th
-  input data/trip_2/B21/B21.th
-  input data/trip_2/B6/B6.th
-  input data/trip_2/B7/B7.th
-  input data/trip_2/B9/B9.th
-  input data/trip_2/B12/B12.th
-  input data/trip_2/B15/B15.th
-  input data/trip_2/BA/BA.th
-
-  centreline
-
-    station ent "main ent." entrance
-    cs long-lat
-    fix ent -87:04:23.5092 35:39:5.5584 200
-
-    equate ent A1@A
-    
-    #BDDA
-    equate A3@A A3@BDDA # connecting A and BDDA
-
-    #C
-    equate a6@C A6@A
-    equate B12@C B12@BDDA
-
-    #B19
-    equate B18@B19 B18@BDDA
-
-    #E
-    equate D3@E D3@BDDA
-    equate D2@E D2@BDDA
-
-    #F
-    equate B1@F B1@BDDA
-
-    #B2.1
-    equate B2@B21 B2@BDDA
-
-    #B6
-    equate B6@B6 B6@BDDA
-
-    #B7
-    equate B7@B7 B7@BDDA
-
-    #B9
-    equate B9@B9 B9@BDDA
-
-    #B12
-    equate B12@B12 B12@BDDA
-
-    #B15
-    equate B15@B15 B15@BDDA
-
-    #BA
-    equate B10@BA B10@BDDA
-
-  endcentreline
-
-  # surface overlay
-  # https://elevation.nationalmap.gov/arcgis/services/3DEPElevation/ImageServer/WMSServer?&service=WMS&request=GetMap&layers=3DEPElevation%3AHillshade%20Gray&styles=&format=image%2Fjpeg&transparent=false&version=1.1.1&srs=EPSG%3A4326&width=1995&height=1995&bbox=-87.076735,35.648108,-87.070041,35.654943&center=35.651638,-87.073249
-  # http://bboxfinder.com/#35.648108,-87.076735,35.654943,-87.070041
-  # https://therion.speleo.sk/wiki/ifl#surface_texture
-  surface # declaration of the height model
-   cs long-lat
-   grid -87.076735 35.648108 30 30 267 267 -87.070041 35.654943 # grid x_minimum y_minimum x_resolution y_resolution n_columns n_rows
-   #bitmap "file name" [ x y X Y xx yy XX YY] # small letters in picture coordinates (0 0 is lower left and capital letters in real coordinates (X Y)
-   bitmap ./lidar-overlay.jpeg [0 0 -87.076735 35.648108 1995 1995 -87.070041 35.654943]
-  endsurface
-
-  map morgansMP
-    ASP@A
-    BDDASP@BDDA
-    CSP@C
-    B19SP@B19
-    ESP@E
-    FSP@F
-    B21SP@B21
-    B6SP@B6
-    B7SP@B7
-    B9SP@B9
-    B12SP@B12
-    BASP@BA
-  endmap
-  #BDDA
-  join BDDASP@BDDA ASP@A
-
-  #C
-  join CSP@C BDDASP@BDDA
-  join CSP@C ASP@A
-
-  #B19
-  join B19SP@B19 BDDASP@BDDA
-
-  #E
-  join ESP@E BDDASP@BDDA -count 2
-
-  #F
-  join FSP@F BDDASP@BDDA
-
-  #B2.1
-  join B21SP@B21 BDDASP@BDDA
-  join B21SP@B21 ESP@E
-
-  #B6
-  join B6SP@B6 BDDASP@BDDA
-
-  #B7
-  join B7SP@B7 BDDASP@BDDA
-
-  #B9
-  join B9SP@B9 BDDASP@BDDA
-
-  #B12
-  join B12SP@B12 BDDASP@BDDA -count 2
-
-  #B15
-  join B15SP@B15 BDDASP@BDDA
-
-  #BA
-  join BASP@BA BDDASP@BDDA -count 2
-
-
+	-title "MU85 Morgan Cave" \
+	
+	#trip 2
+	input data/trip_1/A/A.th
+	input data/trip_1/BDDA/BDDA.th
+	input data/trip_1/C/C.th
+	
+	#trip 2
+	input data/trip_2/B19/B19.th
+	input data/trip_2/E/E.th
+	input data/trip_2/F/F.th
+	input data/trip_2/B21/B21.th
+	input data/trip_2/B6/B6.th
+	input data/trip_2/B7/B7.th
+	input data/trip_2/B9/B9.th
+	input data/trip_2/B12/B12.th
+	input data/trip_2/B15/B15.th
+	input data/trip_2/BA/BA.th
+	
+	centreline
+		
+		station ent "main ent." entrance
+		cs long-lat
+		fix ent -87:04:23.5092 35:39:5.5584 200
+		
+		equate ent A1@A
+		
+		#BDDA
+		equate A3@A A3@BDDA # connecting A and BDDA
+		
+		#C
+		equate a6@C A6@A
+		equate B12@C B12@BDDA
+		
+		#B19
+		equate B18@B19 B18@BDDA
+		
+		#E
+		equate D3@E D3@BDDA
+		equate D2@E D2@BDDA
+		
+		#F
+		equate B1@F B1@BDDA
+		
+		#B2.1
+		equate B2@B21 B2@BDDA
+		
+		#B6
+		equate B6@B6 B6@BDDA
+		
+		#B7
+		equate B7@B7 B7@BDDA
+		
+		#B9
+		equate B9@B9 B9@BDDA
+		
+		#B12
+		equate B12@B12 B12@BDDA
+		
+		#B15
+		equate B15@B15 B15@BDDA
+		
+		#BA
+		equate B10@BA B10@BDDA
+		
+	endcentreline
+	
+	# surface overlay
+	# https://elevation.nationalmap.gov/arcgis/services/3DEPElevation/ImageServer/WMSServer?&service=WMS&request=GetMap&layers=3DEPElevation%3AHillshade%20Gray&styles=&format=image%2Fjpeg&transparent=false&version=1.1.1&srs=EPSG%3A4326&width=1995&height=1995&bbox=-87.076735,35.648108,-87.070041,35.654943&center=35.651638,-87.073249
+	# http://bboxfinder.com/#35.648108,-87.076735,35.654943,-87.070041
+	# https://therion.speleo.sk/wiki/ifl#surface_texture
+	surface # declaration of the height model
+	cs long-lat
+	grid -87.076735 35.648108 30 30 267 267 -87.070041 35.654943 # grid x_minimum y_minimum x_resolution y_resolution n_columns n_rows
+	#bitmap "file name" [ x y X Y xx yy XX YY] # small letters in picture coordinates (0 0 is lower left and capital letters in real coordinates (X Y)
+	bitmap ./lidar-overlay.jpeg [0 0 -87.076735 35.648108 1995 1995 -87.070041 35.654943]
+	endsurface
+	
+	map morgansMP
+		ASP@A
+		BDDASP@BDDA
+		CSP@C
+		B19SP@B19
+		ESP@E
+		FSP@F
+		B21SP@B21
+		B6SP@B6
+		B7SP@B7
+		B9SP@B9
+		B12SP@B12
+		BASP@BA
+	endmap
+	#BDDA
+	join BDDASP@BDDA ASP@A
+	
+	#C
+	join CSP@C BDDASP@BDDA
+	join CSP@C ASP@A
+	
+	#B19
+	join B19SP@B19 BDDASP@BDDA
+	
+	#E
+	join ESP@E BDDASP@BDDA -count 2
+	
+	#F
+	join FSP@F BDDASP@BDDA
+	
+	#B2.1
+	join B21SP@B21 BDDASP@BDDA
+	join B21SP@B21 ESP@E
+	
+	#B6
+	join B6SP@B6 BDDASP@BDDA
+	
+	#B7
+	join B7SP@B7 BDDASP@BDDA
+	
+	#B9
+	join B9SP@B9 BDDASP@BDDA
+	
+	#B12
+	join B12SP@B12 BDDASP@BDDA -count 2
+	
+	#B15
+	join B15SP@B15 BDDASP@BDDA
+	
+	#BA
+	join BASP@BA BDDASP@BDDA -count 2
+	
+	
 endsurvey
 

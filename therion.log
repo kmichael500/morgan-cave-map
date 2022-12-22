@@ -202,7 +202,7 @@ S   199.45 B21SP@B21.morgan ()
 writing output/morgan-debug.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  21 DEC 2022 18:27
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  21 DEC 2022 19:46
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -249,7 +249,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  21 DEC 2022 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  21 DEC 2022 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -266,7 +266,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  616 strings out of 494594
  7740 string characters out of 6146452
- 1127290 words of memory out of 5000000
+ 1127273 words of memory out of 5000000
  2271 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -274,7 +274,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
 .pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb>
-Output written on data.pdf (1 page, 2564765 bytes).
+Output written on data.pdf (1 page, 2564760 bytes).
 PDF statistics:
  760 PDF objects out of 1000 (max. 8388607)
  388 compressed objects within 4 object streams
@@ -330,7 +330,7 @@ S   199.45 B21SP@B21.morgan ()
 ########## end of export maps & scraps selection ###############
 writing output/MU85 Morgan Cave Map.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  21 DEC 2022 18:27
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  21 DEC 2022 19:46
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -375,7 +375,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  21 DEC 2022 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  21 DEC 2022 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -392,7 +392,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  587 strings out of 494594
  7429 string characters out of 6146452
- 661158 words of memory out of 5000000
+ 661141 words of memory out of 5000000
  2242 multiletter control sequences out of 15000+600000
  20080 words of font info for 63 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -400,7 +400,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
 .pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb>
-Output written on data.pdf (1 page, 1179930 bytes).
+Output written on data.pdf (1 page, 1179925 bytes).
 PDF statistics:
  700 PDF objects out of 1000 (max. 8388607)
  358 compressed objects within 4 object streams
@@ -456,7 +456,7 @@ S   199.45 B21SP@B21.morgan ()
 ########## end of export maps & scraps selection ###############
 writing output/MU85 Morgan Cave Map Lidar.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  21 DEC 2022 18:27
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  21 DEC 2022 19:46
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -501,7 +501,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  21 DEC 2022 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  21 DEC 2022 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,7 +519,7 @@ cave-map/./lidar-overlay.jpeg>) (./th_pages.tex)
 Here is how much of TeX's memory you used:
  588 strings out of 494594
  7435 string characters out of 6146452
- 349709 words of memory out of 5000000
+ 349692 words of memory out of 5000000
  2243 multiletter control sequences out of 15000+600000
  20080 words of font info for 63 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -527,7 +527,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
 .pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb>
-Output written on data.pdf (1 page, 1107149 bytes).
+Output written on data.pdf (1 page, 1107147 bytes).
 PDF statistics:
  703 PDF objects out of 1000 (max. 8388607)
  359 compressed objects within 4 object streams
@@ -583,7 +583,7 @@ S   199.45 B21SP@B21.morgan ()
 ########## end of export maps & scraps selection ###############
 writing output/MU85 Morgan Cave Map.svg ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  21 DEC 2022 18:27
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  21 DEC 2022 19:46
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -629,7 +629,7 @@ converting scraps ... done
 making svg map ... done
 done
 writing xtherion file ... done
-compilation time: 13 sec
+compilation time: 12 sec
 
 
 ######################### loop errors ##########################
