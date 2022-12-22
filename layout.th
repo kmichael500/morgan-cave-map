@@ -1,290 +1,290 @@
 layout local
-
-#no lidar
-size 24 36 in # Page size
-overlap 2 in # Border around page
-
-
-legend on
-scale 1 100
-north grid
-statistics carto all
-units imperial
-symbol-set NSS
-scale-bar  75 ft
-
-# Pdf Options
-doc-author "Michael Ketzner"
-doc-title "MU85 Morgan Cave Map"
-
-# Hide Stations/Lineplot
-symbol-hide point station
-symbol-hide group centerline
-
-# Hide Symbols from legend
-
-
-code metapost
-
-def p_blocks_UIS (expr pos,theta,sc,al)=
-symbolsize:=1.0u; %Factor*u; Factor=size of the blocks
-U:=(.5u,.5u);
-T:=identity aligned al rotated theta scaled sc shifted pos;
-pickup PenC;
-thdraw (.0symbolsize,.0symbolsize)--(1.0symbolsize,-.5symbolsize)--(0.0symbolsize,-1.5symbolsize)--(-1.0symbolsize,-1.0symbolsize)--cycle;
-thdraw (.5symbolsize,-.25symbolsize)--(1.0symbolsize,.5symbolsize)--(0.0symbolsize,1.5symbolsize)--(-0.5symbolsize,.5symbolsize);
-thdraw (.0symbolsize,.0symbolsize)--(.0symbolsize,.5symbolsize)--(-1.5symbolsize,.5symbolsize)--(-1.5symbolsize,-0.5symbolsize)--(-0.5symbolsize,-0.5symbolsize);
-enddef;
-endcode
-
-# Adjust density of Clay
-# used to be shifted ((i,j) randomized 1.3u);
-code metapost
-def a_clay (expr p) =
-  density:=2.5;
-  random:=1.3;
-  T:=identity;
-  pickup PenC;
-  path q, qq; q = bbox p;
-  picture tmp_pic; 
-  uu := max(u, (xpart urcorner q - xpart llcorner q)/100, (ypart urcorner q - ypart     llcorner q)/100);
-  tmp_pic := image(
-    for i = xpart llcorner q step density*uu until xpart urcorner q:
-      for j = ypart llcorner q step density*uu until ypart urcorner q:
-        qq := ((-.25u,0){up}..origin{down}..{up}(0.25u,0)) randomized 0 shifted ((i,j) randomized 0uu);
-        # qq := ((-.25u,0){up}..origin{down}..{up}(0.25u,0)) randomized (uu/15) shifted ((i,j) randomized 1.3uu);
-
-        if xpart (p intersectiontimes qq) < 0:
-          thdraw qq withcolor (129/255, 63/255, 11/255);
-        fi;
-      endfor;
-    endfor;
-  );
-  clip tmp_pic to p;
-  draw tmp_pic;
-enddef;
-
-# clay point
-def p_clay (expr pos,theta,sc,al) =
-    U:=(.3u,.3u);
-    T:=identity aligned al rotated theta scaled sc shifted pos;
-    pickup PenC;
-    thdraw (-.3u,0){up}..origin{down}..{up}(0.3u,0) withcolor (129/255, 63/255, 11/255);
-enddef;
-
-# clay wall
-def l_wall_clay (expr P) =
-  T:=identity;
-  cas := 0;
-  dlzka := arclength P;
-  mojkrok:=adjust_step(dlzka, .5u);
-  pickup PenC;
-  q := (-0.15u,0){up}..{down}origin..{up}(0.15u,0);
-  forever:
-    t := arctime (cas + mojkrok/2) of P;
-    thdraw q shifted (point t of P + .25u * unitvector(thdir(P,t) rotated -90)) withcolor (129/255, 63/255, 11/255);
-    cas := cas + mojkrok;
-    exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
-  endfor;
-  pickup PenA;
-  thdraw P;
-enddef;
-
-endcode
-
-# symbol-colour area clay [.5, 0.247, 0.043]  #ineffective?
-# symbol-colour point clay [50, 25., 4]  #ineffective?
-
-
-
-code metapost
-  def s_northarrow (expr rot) =
-    T:=identity;
-    picture tmp_pic;
-    tmp_pic = image (
-      begingroup
-        interim defaultscale:=3;
-        label.top("N", origin shifted (0,2.2cm));
-      endgroup;
-      thdraw (-.4cm,.4cm)--(0,2cm)--(.4cm,.4cm)--(2cm,0cm)--(.4cm,-.4cm)--(0,-2cm)--(-.4cm,-.4cm)--(-2cm,0)--cycle;
-      thfill (-.4cm,.4cm)--(0,2cm)--(0,0)--cycle;
-      thfill (.4cm,-.4cm)--(0,-2cm)--(0,0)--cycle;
-      thfill (.4cm,.4cm)--(2cm,0)--(0,0)--cycle;
-      thfill (-.4cm,-.4cm)--(-2cm,0)--(0,0)--cycle;
-    );
-    draw tmp_pic scaled 2 rotatedaround(origin, -rot);
-  enddef;
-endcode
- 
-
-#Change Area Fills
-
-# Colors for symbols
-symbol-colour point station [54 7 60]	#purple[54 7 60] #seems to affect +s, flag symbols and station text
-  	
-#survey cave
-symbol-colour group cave-centreline [35 16 16] # brown [35 16 16] # red brown [50 0 0]
-symbol-colour point cave-station [35 16 16]  #ineffective?
-#symbol-colour point station-name [0 100 0]	
-
-#survey surface
-symbol-colour group surface-centreline [54 74 29] # green [54 74 29]
-symbol-colour point surface-station [54 74 29]  #ineffective?
-symbol-colour point flag:entrance [54 74 29]  #ineffective?
-
-#magenta
-symbol-colour group equipment  [80 0 40] # magenta [80 0 40]
-
-#dark blue
-# symbol-colour group water  [22 22 95] # this breaks custom water definitions
-symbol-colour point water-flow  [22 22 95]
-symbol-colour line water-flow  [22 22 95]	
-symbol-colour point water [22 22 95]	    # inconsistent?
-# symbol-colour area sump [22 22 95]	# this breaks custom water definitions
-
-#light blue	
-# symbol-colour area water [86 100 100]	# this breaks custom water definitions
-
-#define colours for redefined water point & area
-code metapost  
-  %these colours affect fills, not the linework
-  !color colour_water_bg; %! forces interpretation as metapost
-  colour_water_bg := (0.86,1,1);      %light blue
-  !color colour_sump_bg;  %! forces interpretation as metapost
-  colour_sump_bg := (.22,.22,.95);    %dark blue
-
-  %these colours affect the linework	
-  !color colour_rope;  %! forces interpretation as metapost
-  colour_rope :=  (0.35,0.75,1.0);    %blue	
-  
-  %this colour for entrance symbol (not point station flag entrance)
-  !color colour_entrance;  %! forces interpretation as metapost
-  colour_entrance :=  (0.54,0.74,0.29);  		
-endcode
- 
-#Patterns similar to standard definition of pattern_water_UIS and pattern_sump_UIS
-#Gives b&w shaded symbols with borders, unless custom colours are defined
-#in which case colour backgrounds defined in LayoutColourSymbols are used
-code metapost
-  beginpattern(pattern_water);
-    draw origin--10up withpen pensquare scaled (0.04u); % line thickness
-    patternxstep(.50u);                                 % spacing
-    patterntransform(identity rotated 45);
-  endpattern;
-
-  beginpattern(pattern_sump);
-    draw origin--(0,.50u) withpen pensquare scaled (0.04u);
-    draw origin--(.50u,0) withpen pensquare scaled (0.04u);
-    patterntransform(identity rotated 45);	
-  endpattern;
-
-
-  def p_water (expr pos,theta,sc,al)=
-    %Bruce Mutton 2010.06.20 for Therion 5.3.8
-    U:=(.425u,.3u);
-    T:=identity aligned al rotated theta scaled sc shifted pos;
-    pickup PenD;
-    p:=fullcircle xscaled (1.2u) yscaled (0.8u) randomized (0.1u) rotated uniformdeviate (-45);
-    if known 
-      colour_water_bg: thfill p withcolor colour_water_bg;
-    else:
-      thfill p withcolor white;
-    fi; 
-    thfill p withpattern pattern_water; %%% withcolor black;  %but with failed attempt at black hatch
-    thdraw p;   %outline
-  enddef; 
-
-  def a_water (expr Path) =
-    %Bruce Mutton 2010.06.20 for Therion 5.3.8
-    T:=identity;
-    thclean Path;
-    pickup PenD;
-    if known
-      colour_water_bg: thfill Path withcolor colour_water_bg;
-    else:
-      thfill Path withcolor white;
-    fi; 
-    thfill Path withpattern pattern_water;  
-    %%thdraw Path;  %outline, not needed as area drawn is defined by line border anyway
-    %and border can be made invisible with subtype invisible where water meets sump in elevation
-  enddef;
-
-  def a_sump (expr Path) =
-    %Bruce Mutton 2010.06.20 for Therion 5.3.8
-    T:=identity;
-    thclean Path;
-    pickup PenD;
-    if known
-      colour_sump_bg:  thfill Path withcolor colour_sump_bg;
-    else:
-      thfill Path withcolor 0.7[white,black];
-    fi;
-    thfill Path withpattern pattern_sump;  
-    %%thdraw Path;  %outline, not needed as area drawn is defined by line border anyway
-    %and border can be made invisible with subtype invisible where water meets sump in elevation
-  enddef;
-endcode
-#end change area fills
-
-# Scale Bar
-code metapost
-  def s_scalebar (expr l, units, txt) =
-    begingroup
-      interim warningcheck:=0;
-      tmpl:=l / Scale * cm * units / 2;
-      tmpx:=l / Scale * cm * units / 5;
-      tmph:=10bp; % hight of the scale bar
-    endgroup;
-    pickup PenC;
-    draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
-    p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
-    for i:=-2.5 step 2 until 2:
-      fill p shifted (i * tmpx,0);
-    endfor;
-    begingroup
-    interim labeloffset:=10.0bp; % numbers offsetunder scale bar
-    for i:=0 step (l/5) until (l-1):
-      tmpx:=tmpl * (i * 2 / l - 1);
-      label.bot(thTEX(decimal (i)) scaled 3,(tmpx,-tmph)); % parameter "scaled" is changing font size
-    endfor;
-    label.bot(thTEX(decimal (l) & "\thinspace" & txt) scaled 3,(tmpl,-tmph));
-    #label.top(thTEX("Scale 1 : " & decimal round(Scale*100)) scaled 3,(0,0));
-    endgroup;
-  enddef;
-endcode
-#end scale bar
-
-# Change legend size
-# legendwidth also moves north arrow
-code tex-map
-\def\maplayout{
-  \legendbox{50}{10}{se}{
-    \def\txtsize{35}  % Define the default text size
-    \legendwidth=40 cm
-    \legendtextsectionsize={\size[\txtsize]}
-    \legendtextsize={\size[\txtsize]}
-    \legendtextheadersize={\size[80]}
-    \hsize=\legendwidth
-    \the\legendcontent={\size[\txtsize]}
-  }
-}
-endcode 
-#end of TeX code to change legend size
-
-
-
-#Usefull code
-
-#scale x y with respect to bottom left of page
-#map-header 75 15 se
-#code metapost
- #   def a_water (expr p) =
- #     T:=identity;
- #     thfill p withcolor (0.529, 0.808, 0.922);
- #   enddef;
- #   def a_sump (expr p) =
- #     T:=identity;
- #     thfill p withcolor (0.529, 0.808, 0.922);
- #   enddef;
- # endcode
+	
+	#no lidar
+	size 24 36 in # Page size
+	overlap 2 in # Border around page
+	
+	
+	legend on
+	scale 1 100
+	north grid
+	statistics carto all
+	units imperial
+	symbol-set NSS
+	scale-bar  75 ft
+	
+	# Pdf Options
+	doc-author "Michael Ketzner"
+	doc-title "MU85 Morgan Cave Map"
+	
+	# Hide Stations/Lineplot
+	symbol-hide point station
+	symbol-hide group centerline
+	
+	# Hide Symbols from legend
+	
+	
+	code metapost
+		
+		def p_blocks_UIS (expr pos,theta,sc,al)=
+			symbolsize:=1.0u; %Factor*u; Factor=size of the blocks
+			U:=(.5u,.5u);
+			T:=identity aligned al rotated theta scaled sc shifted pos;
+			pickup PenC;
+			thdraw (.0symbolsize,.0symbolsize)--(1.0symbolsize,-.5symbolsize)--(0.0symbolsize,-1.5symbolsize)--(-1.0symbolsize,-1.0symbolsize)--cycle;
+			thdraw (.5symbolsize,-.25symbolsize)--(1.0symbolsize,.5symbolsize)--(0.0symbolsize,1.5symbolsize)--(-0.5symbolsize,.5symbolsize);
+			thdraw (.0symbolsize,.0symbolsize)--(.0symbolsize,.5symbolsize)--(-1.5symbolsize,.5symbolsize)--(-1.5symbolsize,-0.5symbolsize)--(-0.5symbolsize,-0.5symbolsize);
+		enddef;
+	endcode
+	
+	# Adjust density of Clay
+	# used to be shifted ((i,j) randomized 1.3u);
+	code metapost
+		def a_clay (expr p) =
+			density:=1.5;
+			random:=1.3;
+			T:=identity;
+			pickup PenC;
+			path q, qq; q = bbox p;
+			picture tmp_pic;
+			uu := max(u, (xpart urcorner q - xpart llcorner q)/100, (ypart urcorner q - ypart     llcorner q)/100);
+			tmp_pic := image(
+			for i = xpart llcorner q step density*uu until xpart urcorner q:
+			for j = ypart llcorner q step density*uu until ypart urcorner q:
+			qq := ((-.25u,0){up}..origin{down}..{up}(0.25u,0)) randomized 0 shifted ((i,j) randomized 0uu);
+			# qq := ((-.25u,0){up}..origin{down}..{up}(0.25u,0)) randomized (uu/15) shifted ((i,j) randomized 1.3uu);
+			
+			if xpart (p intersectiontimes qq) < 0:
+				thdraw qq withcolor (129/255, 63/255, 11/255);
+			fi;
+			endfor;
+			endfor;
+			);
+			clip tmp_pic to p;
+			draw tmp_pic;
+		enddef;
+		
+		# clay point
+		def p_clay (expr pos,theta,sc,al) =
+			U:=(.3u,.3u);
+			T:=identity aligned al rotated theta scaled sc shifted pos;
+			pickup PenC;
+			thdraw (-.3u,0){up}..origin{down}..{up}(0.3u,0) withcolor (129/255, 63/255, 11/255);
+		enddef;
+		
+		# clay wall
+		def l_wall_clay (expr P) =
+			T:=identity;
+			cas := 0;
+			dlzka := arclength P;
+			mojkrok:=adjust_step(dlzka, .5u);
+			pickup PenC;
+			q := (-0.15u,0){up}..{down}origin..{up}(0.15u,0);
+			forever:
+			t := arctime (cas + mojkrok/2) of P;
+			thdraw q shifted (point t of P + .25u * unitvector(thdir(P,t) rotated -90)) withcolor (129/255, 63/255, 11/255);
+			cas := cas + mojkrok;
+			exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
+			endfor;
+			pickup PenA;
+			thdraw P;
+		enddef;
+		
+	endcode
+	
+	# symbol-colour area clay [.5, 0.247, 0.043]  #ineffective?
+	# symbol-colour point clay [50, 25., 4]  #ineffective?
+	
+	
+	
+	code metapost
+		def s_northarrow (expr rot) =
+			T:=identity;
+			picture tmp_pic;
+			tmp_pic = image (
+			begingroup
+				interim defaultscale:=3;
+				label.top("N", origin shifted (0,2.2cm));
+			endgroup;
+			thdraw (-.4cm,.4cm)--(0,2cm)--(.4cm,.4cm)--(2cm,0cm)--(.4cm,-.4cm)--(0,-2cm)--(-.4cm,-.4cm)--(-2cm,0)--cycle;
+			thfill (-.4cm,.4cm)--(0,2cm)--(0,0)--cycle;
+			thfill (.4cm,-.4cm)--(0,-2cm)--(0,0)--cycle;
+			thfill (.4cm,.4cm)--(2cm,0)--(0,0)--cycle;
+			thfill (-.4cm,-.4cm)--(-2cm,0)--(0,0)--cycle;
+			);
+			draw tmp_pic scaled 2 rotatedaround(origin, -rot);
+		enddef;
+	endcode
+	
+	
+	#Change Area Fills
+	
+	# Colors for symbols
+	symbol-colour point station [54 7 60]	#purple[54 7 60] #seems to affect +s, flag symbols and station text
+	
+	#survey cave
+	symbol-colour group cave-centreline [35 16 16] # brown [35 16 16] # red brown [50 0 0]
+	symbol-colour point cave-station [35 16 16]  #ineffective?
+	#symbol-colour point station-name [0 100 0]
+	
+	#survey surface
+	symbol-colour group surface-centreline [54 74 29] # green [54 74 29]
+	symbol-colour point surface-station [54 74 29]  #ineffective?
+	symbol-colour point flag:entrance [54 74 29]  #ineffective?
+	
+	#magenta
+	symbol-colour group equipment  [80 0 40] # magenta [80 0 40]
+	
+	#dark blue
+	# symbol-colour group water  [22 22 95] # this breaks custom water definitions
+	symbol-colour point water-flow  [22 22 95]
+	symbol-colour line water-flow  [22 22 95]
+	symbol-colour point water [22 22 95]	    # inconsistent?
+	# symbol-colour area sump [22 22 95]	# this breaks custom water definitions
+	
+	#light blue
+	# symbol-colour area water [86 100 100]	# this breaks custom water definitions
+	
+	#define colours for redefined water point & area
+	code metapost
+		%these colours affect fills, not the linework
+		!color colour_water_bg; %! forces interpretation as metapost
+		colour_water_bg := (0.86,1,1);      %light blue
+		!color colour_sump_bg;  %! forces interpretation as metapost
+		colour_sump_bg := (.22,.22,.95);    %dark blue
+		
+		%these colours affect the linework
+		!color colour_rope;  %! forces interpretation as metapost
+		colour_rope :=  (0.35,0.75,1.0);    %blue
+		
+		%this colour for entrance symbol (not point station flag entrance)
+		!color colour_entrance;  %! forces interpretation as metapost
+		colour_entrance :=  (0.54,0.74,0.29);
+	endcode
+	
+	#Patterns similar to standard definition of pattern_water_UIS and pattern_sump_UIS
+	#Gives b&w shaded symbols with borders, unless custom colours are defined
+	#in which case colour backgrounds defined in LayoutColourSymbols are used
+	code metapost
+		beginpattern(pattern_water);
+			draw origin--10up withpen pensquare scaled (0.04u); % line thickness
+			patternxstep(.50u);                                 % spacing
+			patterntransform(identity rotated 45);
+		endpattern;
+		
+		beginpattern(pattern_sump);
+			draw origin--(0,.50u) withpen pensquare scaled (0.04u);
+			draw origin--(.50u,0) withpen pensquare scaled (0.04u);
+			patterntransform(identity rotated 45);
+		endpattern;
+		
+		
+		def p_water (expr pos,theta,sc,al)=
+			%Bruce Mutton 2010.06.20 for Therion 5.3.8
+			U:=(.425u,.3u);
+			T:=identity aligned al rotated theta scaled sc shifted pos;
+			pickup PenD;
+			p:=fullcircle xscaled (1.2u) yscaled (0.8u) randomized (0.1u) rotated uniformdeviate (-45);
+			if known
+				colour_water_bg: thfill p withcolor colour_water_bg;
+			else:
+				thfill p withcolor white;
+			fi;
+			thfill p withpattern pattern_water; %%% withcolor black;  %but with failed attempt at black hatch
+			thdraw p;   %outline
+		enddef;
+		
+		def a_water (expr Path) =
+			%Bruce Mutton 2010.06.20 for Therion 5.3.8
+			T:=identity;
+			thclean Path;
+			pickup PenD;
+			if known
+				colour_water_bg: thfill Path withcolor colour_water_bg;
+			else:
+				thfill Path withcolor white;
+			fi;
+			thfill Path withpattern pattern_water;
+			%%thdraw Path;  %outline, not needed as area drawn is defined by line border anyway
+			%and border can be made invisible with subtype invisible where water meets sump in elevation
+		enddef;
+		
+		def a_sump (expr Path) =
+			%Bruce Mutton 2010.06.20 for Therion 5.3.8
+			T:=identity;
+			thclean Path;
+			pickup PenD;
+			if known
+				colour_sump_bg:  thfill Path withcolor colour_sump_bg;
+			else:
+				thfill Path withcolor 0.7[white,black];
+			fi;
+			thfill Path withpattern pattern_sump;
+			%%thdraw Path;  %outline, not needed as area drawn is defined by line border anyway
+			%and border can be made invisible with subtype invisible where water meets sump in elevation
+		enddef;
+	endcode
+	#end change area fills
+	
+	# Scale Bar
+	code metapost
+		def s_scalebar (expr l, units, txt) =
+			begingroup
+				interim warningcheck:=0;
+				tmpl:=l / Scale * cm * units / 2;
+				tmpx:=l / Scale * cm * units / 5;
+				tmph:=10bp; % hight of the scale bar
+			endgroup;
+			pickup PenC;
+			draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
+			p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+			for i:=-2.5 step 2 until 2:
+			fill p shifted (i * tmpx,0);
+			endfor;
+			begingroup
+				interim labeloffset:=10.0bp; % numbers offsetunder scale bar
+				for i:=0 step (l/5) until (l-1):
+				tmpx:=tmpl * (i * 2 / l - 1);
+				label.bot(thTEX(decimal (i)) scaled 3,(tmpx,-tmph)); % parameter "scaled" is changing font size
+				endfor;
+				label.bot(thTEX(decimal (l) & "\thinspace" & txt) scaled 3,(tmpl,-tmph));
+				#label.top(thTEX("Scale 1 : " & decimal round(Scale*100)) scaled 3,(0,0));
+			endgroup;
+		enddef;
+	endcode
+	#end scale bar
+	
+	# Change legend size
+	# legendwidth also moves north arrow
+	code tex-map
+		\def\maplayout{
+		\legendbox{50}{10}{se}{
+		\def\txtsize{35}  % Define the default text size
+		\legendwidth=40 cm
+		\legendtextsectionsize={\size[\txtsize]}
+		\legendtextsize={\size[\txtsize]}
+		\legendtextheadersize={\size[80]}
+		\hsize=\legendwidth
+		\the\legendcontent={\size[\txtsize]}
+		}
+		}
+	endcode
+	#end of TeX code to change legend size
+	
+	
+	
+	#Usefull code
+	
+	#scale x y with respect to bottom left of page
+	#map-header 75 15 se
+	#code metapost
+	#   def a_water (expr p) =
+	#     T:=identity;
+	#     thfill p withcolor (0.529, 0.808, 0.922);
+	#   enddef;
+	#   def a_sump (expr p) =
+	#     T:=identity;
+	#     thfill p withcolor (0.529, 0.808, 0.922);
+	#   enddef;
+	# endcode
 endlayout
